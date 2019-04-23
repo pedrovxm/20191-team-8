@@ -1,6 +1,6 @@
 # Team-8 PDS II - 2019/1
 
-Theme: Bang
+Theme: BANG!
 
 Repository created to host the work done on PDS II discipline
 
