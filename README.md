@@ -33,3 +33,19 @@ Além disso, junto com o seu papel, também é sorteado o personagem; esse será
 O jogo começa com o sorteio da ordem de jogadores (sentido horário numa roda), exceto o xerife, sendo este sempre o primeiro; e para cada jogador é dado cartas retiradas do monte (embaralhado inicialmente) em quantidade igual a sua quantidade de balas (vida). Os jogadores durante o jogo não podem ter ao final das rodadas uma quantidade de cartas na mão maior do que a quantidade de balas, tendo de descartar até o limite, sob sua escolha quais cartas.
 
 O a mecânica do jogo é a seguinte para cada rodada de personagem (sob a exceção de alguns casos):
+
+* Pegar duas cartas:
+
+... O jogador deve pegar duas cartas de cima da pilha de cartas. Caso a pilha esvazie, então é pego o monte de descarte, embaralhado e este vira a nova pilha de cartas.
+
+* Jogar qualquer número de cartas:
+
+... Existem dois tipos de cartas: cartas com a borda marrom (estas são para se jogar e descartar) e cartas com a borda azul (armas e outros objetos que continuam tendo seu efeito ao longo das rodadas).
+
+... Cartas com borda marrom têm um efeito a ser aplicado, e o consumindo a carta vai automaticamente para a pilha de descarte. 
+
+... Cartas com a borda azul são jogadas e ficam no tabuleiro do jogador, com exceção da carta Jail. As cartas azuis à frente do personagem são definidas como “no jogo” (“in play”). O efeito destas cartas dura até que elas sejam descartadas ou removidas de alguma forma (através da jogada de uma carta Cat Balou, por exemplo) ou se um evento especial ocorrer (no caso de Dinamite). Não há limite de cartas que se pode ter à sua frente desde que elas não tenham o mesmo nome.
+
+... O jogador só pode jogar uma carta BANG! por turno; (isto se aplica somente às cartas BANG! e não para as cartas com o símbolo). Elas servem para causar dano aos outros jogadores. Não obstante, o jogador não pode atirar em todos que ele quiser, mas apenas àqueles que estiverem dentro de sua área de atuação (isso depende de seu personagem e de cartas auxiliares que podem aumentar ou diminuir esta área).
+
+... O jogador só pode ter uma carta de arma em jogo. (quando ele jogar uma nova arma, deve descartar a que já tinha em jogo). Cartas de arma servem para aumentar a distância que atira.
