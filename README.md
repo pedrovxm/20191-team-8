@@ -54,6 +54,6 @@ O a mecânica do jogo é a seguinte para cada rodada de personagem (sob a exceç
 
     Depois da segunda fase (nenhuma carta pode ser lançada no jogo), então você deve descartar da sua mão qualquer carta que exceda o limite de cartas que você pode ter na mão. Lembre-se que o limite de cartas na mão, no final do turno, por personagem é igual a quantidade de balas que ele tem (sua vida). Então está na hora do próximo jogador, no sentido horário, realizar seu turno. Lembrando que cada jogador joga de uma só vez as três fases que compreendem um turno. 
 
-# Finalização
+### Finalização
 
 Quando o jogador perder seu último ponto de vida, ele será eliminado e o jogo acabou para ele; a única exceção é se ele imediatamente utilizar uma carta Beer. Quando for eliminado do jogo, todas as suas cartas são lançadas na pilha de descarte e seu papel no jogo é revelado, podendo encerrar o jogo.
