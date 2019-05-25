@@ -8,7 +8,7 @@
 #include <iostream>
 #include "cartas.h"
 
-class Arma : public Cartas {
+class Arma : public Carta {
 	virtual void efeito() override;
 };
 

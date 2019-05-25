@@ -8,7 +8,7 @@
 #include <iostream>
 #include "cartas.h"
 
-class Carroca : public Cartas {
+class Carroca : public Carta {
 	virtual void efeito() override;
 };
 

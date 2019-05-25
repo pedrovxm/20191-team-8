@@ -7,7 +7,7 @@
 
 
 #include "papel.h"
-
+#include <iostream>
 class Xerife : public Papel {
 	public:
 		virtual void check_win() override;

@@ -2,8 +2,8 @@
 #define TP_DECK_H
 
 #include <queue>
-#include "carta.h"
-
+#include "cartas.h"
+#include "jogador.h"
 class Deck {
 private:
 	std::queue<Carta> cartas;
@@ -11,8 +11,8 @@ private:
 public:
 	Deck();
 	~Deck();
-	void comprar_carta(Jogador jogador);
-	void get_num_cartas();
+	void comprar_carta(Jogador* jogador);
+	int get_num_cartas();
 };
 
 

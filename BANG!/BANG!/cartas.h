@@ -7,7 +7,7 @@
 #include <string>
 #include <iostream>
 
-class Cartas {
+class Carta {
 protected:
 	std::string tipo;
 	std::string imagem;
