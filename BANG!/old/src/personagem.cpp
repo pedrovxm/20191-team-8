@@ -40,8 +40,3 @@ void Personagem::set_nome(std::string nome) {
 void Personagem::set_descricao(std::string descricao) {
   this->descricao = descricao;
 }
-
-// REGRAS DE NEGÓCIO
-void Personagem::efeito() {
-  throw "Not implemented yet";
-}
