@@ -9,7 +9,14 @@
 #include "cartas.h"
 
 class Bang : public Carta {
-	virtual void efeito() override;
+  public:
+    Bang(std::string type="INDIVIDUAL_AMMO_BANG",
+      std::string description="THE PLAYER CAN SHOOT ANY REACHABLE ENEMY",
+      std::string name="BANG!",
+      std::string suitname="CLUBS",
+      std::string suitnumber="5"
+  );
+	//virtual void efeito() override;
 };
 
 
