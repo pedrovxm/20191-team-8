@@ -53,7 +53,19 @@ class Dealer {
 		ALLEGRO_BITMAP* equip_3 = NULL;
 		//vida//
 		ALLEGRO_BITMAP* vida = NULL;
-		
+		//bang!//
+		ALLEGRO_BITMAP* bang_press = NULL;
+		//botão turnos//
+		ALLEGRO_BITMAP* turnos = NULL;
+		//prisao//
+		ALLEGRO_BITMAP* prisao = NULL;
+		//dinamite//
+		ALLEGRO_BITMAP* dinamite = NULL;
+		//mira//
+		ALLEGRO_BITMAP* mira = NULL;
+		//mustang//
+		ALLEGRO_BITMAP* mustang = NULL;
+
 		//music
 		ALLEGRO_SAMPLE* intro = al_load_sample("intro.ogg");
 
