@@ -67,6 +67,18 @@ void Dealer::initial_screen_config() {
 	this->equip_3 = al_load_bitmap("bitmap_initial.png");
 	//vida//
 	this->vida = al_load_bitmap("bitmap_initial.png");
+	//bang!//
+	this->bang_press = al_load_bitmap("bitmap_initial.png");
+	//passa turnos//
+	this->turnos = al_load_bitmap("bitmap_initial.png");
+	//prisao//
+	this->prisao = al_load_bitmap("bitmap_initial.png");
+	//dinamite//
+	this->dinamite = al_load_bitmap("bitmap_initial.png");
+	//mira//
+	this->mira = al_load_bitmap("bitmap_initial.png");
+	//mustang//
+	this->mustang = al_load_bitmap("bitmap_initial.png");
 
 	assert(this->background != NULL);
 	al_set_window_title(this->display, "BANG!");
@@ -215,6 +227,18 @@ void Dealer::start_menu() {
 		this->equip_3 = al_load_bitmap("BANG!.png");
 		//vida//
 		this->vida = al_load_bitmap("4vidas.png");
+		//bang!//
+		this->bang_press = al_load_bitmap("bang2.png");
+		//botão turnos//
+		this->turnos = al_load_bitmap("passaturno.png");
+		//prisao//
+		this->prisao = al_load_bitmap("prisao_icone.png");
+		//dinamite//
+		this->dinamite = al_load_bitmap("dinamite_icone.png");
+		//mira//
+		this->mira = al_load_bitmap("mira_icone.png");
+		//mustang//
+		this->mustang = al_load_bitmap("mustang_icone.png");
 
 		this->game_cards = false;
 	}
@@ -251,6 +275,18 @@ void Dealer::start_menu() {
 		al_draw_bitmap(this->equip_3, 718, 326, 0);
 		//vida//
 		al_draw_bitmap(this->vida, 460, 226, 0);
+		//bang!//
+		al_draw_bitmap(this->bang_press, 900, 280, 0);
+		//botão turnos//
+		al_draw_bitmap(this->turnos, 1130, 290, 0);
+		//prisao//
+		al_draw_bitmap(this->prisao, 190, 390, 0);
+		//dinamite//
+		al_draw_bitmap(this->dinamite, 190, 250, 0);
+		//mira//
+		al_draw_bitmap(this->mira, 320, 290, 0);
+		//mustang//
+		al_draw_bitmap(this->mustang, 320, 397, 0);
 
 		al_flip_display();
 	}
@@ -299,5 +335,16 @@ void Dealer::end() {
 	al_destroy_bitmap(this->equip_3);
 	//vida//
 	al_destroy_bitmap(this->vida);
-
+	//bang!//
+	al_destroy_bitmap(this->bang_press);
+	//botão turnos//
+	al_destroy_bitmap(this->turnos);
+	//prisao//
+	al_destroy_bitmap(this->prisao);
+	//dinamite//
+	al_destroy_bitmap(this->dinamite);
+	//mira//
+	al_destroy_bitmap(this->mira);
+	//mustang//
+	al_destroy_bitmap(this->mustang);
 }
