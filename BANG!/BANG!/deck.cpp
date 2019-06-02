@@ -1,17 +1,17 @@
 #include "deck.h"
 
-Deck() {
+Deck::Deck() {
 	throw "Funcao nao implementada";
 }
-~Deck() {
+Deck::~Deck() {
 	throw "Funcao nao implementada";
 }
-void comprar_carta(Jogador jogador) {
-	throw "Funcao nao implementada";
+void comprar_carta(Jogador* jogador){
+	
 }
-void get_num_cartas() {
-	throw "Funcao nao implementada";
+int Deck::get_num_cartas() {
+	return this->cartas.size();
 }
-void _adicionar_cartas() {
+void Deck::_adicionar_cartas() {
 	throw "Funcao nao implementada";
 }

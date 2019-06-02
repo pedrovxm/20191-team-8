@@ -3,7 +3,7 @@
 //
 
 #include "papel.h"
-
+#include <iostream>
 void Papel::check_win() {
 	std::cout << "Funcao nao implementada" << std::endl;
 }

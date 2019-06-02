@@ -168,6 +168,7 @@
     <ClCompile Include="deck.cpp" />
     <ClCompile Include="delegado.cpp" />
     <ClCompile Include="dinamite.cpp" />
+    <ClCompile Include="jogador.cpp" />
     <ClCompile Include="papel.cpp" />
     <ClCompile Include="renegdo.cpp" />
     <ClCompile Include="xerife.cpp" />
@@ -188,6 +189,7 @@
     <ClInclude Include="deck.h" />
     <ClInclude Include="delegado.h" />
     <ClInclude Include="dinamite.h" />
+    <ClInclude Include="jogador.h" />
     <ClInclude Include="papel.h" />
     <ClInclude Include="renegado.h" />
     <ClInclude Include="xerife.h" />

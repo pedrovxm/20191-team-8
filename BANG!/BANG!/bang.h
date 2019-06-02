@@ -8,8 +8,15 @@
 #include <iostream>
 #include "cartas.h"
 
-class Bang : public Cartas {
-	virtual void efeito() override;
+class Bang : public Carta {
+  public:
+    Bang(std::string type="OFFENSIVE_BANG!",
+      std::string description="THE PLAYER CAN SHOOT ANY REACHABLE ENEMY",
+      std::string name="BANG!",
+      std::string suitname="CLUBS",
+      std::string suitnumber="5"
+  );
+	//virtual void get_effect() override;
 };
 
 

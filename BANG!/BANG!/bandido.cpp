@@ -3,7 +3,7 @@
 //
 
 #include "bandido.h"
-
+#include <iostream>
 void Bandido::check_win() {
 	std::cout << "Funcao nao implementada" << std::endl;
 }
