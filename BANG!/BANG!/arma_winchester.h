@@ -11,7 +11,7 @@
 
 class Winchester : public Arma {
   public:
-    Winchester(std::string type="OFENSIVE_SIGHT_CHANGER",
+    Winchester(std::string type="SIGHT_MODIFYER",
       std::string description="THE PLAYER CAN INCREASES HIS BANG! FIRE RANGE",
       std::string name="RIFLE WINCHESTER",
       std::string suitname="SPADES",
