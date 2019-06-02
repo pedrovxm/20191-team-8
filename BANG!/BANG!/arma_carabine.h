@@ -11,7 +11,7 @@
 
 class Carabine : public Arma {
   public:
-    Carabine(std::string type="OFENSIVE_SIGHT_CHANGER",
+    Carabine(std::string type="SIGHT_MODIFYER",
       std::string description="THE PLAYER CAN INCREASE HIS BANG! FIRE RANGE",
       std::string name="CARABINA",
       std::string suitname="CLUBS",
