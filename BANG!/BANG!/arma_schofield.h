@@ -11,7 +11,7 @@
 
 class RevolverSchofield : public Arma {
   public:
-    RevolverSchofield(std::string type="INDIVIDUAL_RANGE_SETTER",
+    RevolverSchofield(std::string type="OFENSIVE_SIGHT_CHANGER",
       std::string description="THE PLAYER CAN INCREASES HIS BANG! FIRE RANGE",
       std::string name="REVOLVER SCHOFIELD",
       std::string suitname="CLUBS",

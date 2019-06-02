@@ -11,7 +11,7 @@
 //#include "deck.h"
 
 // void Arma::get_effect(){
-//   //jogador->set_range(_range);
+//   //this->_holder->range = this->_range;
 // }
 
 Arma::Arma(std::string type, std::string description, std::string name, std::string suitname, std::string suitnumber, int range):

@@ -11,10 +11,12 @@
 
 class Carruagem : public Carta {
   public:
-    Carruagem(): //Set the type and description of the card
-      Carta("INDIVIDUAL_CARD_GETTER",
-      "THE PLAYER CAN DRAW THREE CARDS FROM THE TOP OF THE DECK",
-      "CARRUAGEM", "SPADES", 9) {}
+    Carruagem(std::string type="INDIVIDUAL_LIFE_RECOVER",
+      std::string description="THE PLAYER CAN DRAW TWO CARDS FROM THE TOP OF THE DECK.",
+      std::string name="CARRUAGEM",
+      std::string suitname="SPADES",
+      std::string suitnumber="9"
+    );
 	  //virtual void get_effect() override;
 };
 

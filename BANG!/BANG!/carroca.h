@@ -9,11 +9,13 @@
 #include "cartas.h"
 
 class Carroca : public Carta {
-public:
-  Carroca(): //Set the type and description of the card
-    Carta("INDIVIDUAL_CARD_GETTER",
-    "THE PLAYER CAN DRAW THREE CARDS FROM THE TOP OF THE DECK",
-    "TRANSPORTE", "HEARTS", "3") {}
+  public:
+    Carroca(std::string type="INDIVIDUAL_CARD_GETTER",
+      std::string description="THE PLAYER CAN DRAW THREE CARDS FROM THE TOP OF THE DECK.",
+      std::string name="TRANSPORTE",
+      std::string suitname="HEARTS",
+      std::string suitnumber="3"
+    );
   //virtual void get_effect() override;
 };
 

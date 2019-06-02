@@ -11,7 +11,7 @@
 
 class Carabine : public Arma {
   public:
-    Carabine(std::string type="INDIVIDUAL_RANGE_SETTER",
+    Carabine(std::string type="OFENSIVE_SIGHT_CHANGER",
       std::string description="THE PLAYER CAN INCREASE HIS BANG! FIRE RANGE",
       std::string name="CARABINA",
       std::string suitname="CLUBS",

@@ -29,10 +29,19 @@ std::string Carta::get_name(){
   return this->_name;
 }
 
+//ESSA FUNÇÃO SERÁ COMUM A TODAS AS CARTAS
+//A CARTA IRÁ RECEBER O ENDEREÇO DE MEMÓRIA
+//DO JOGADOR QUE POSSUI-LA, DE MODO QUE OS
+//EFEITOS POSSAM SER UTILIZADOS DE FORMA
+//INDIVIDUAL.
 // void set_holder(jogador &jogador){
 //   this->_holder = &jogador;
 // }
 //
+//ESSA FUNÇÃO IRÁ RETORNAR O ID DO JOGADOR
+//QUE ESTIVER COM CARTA, O QUE PODE SER ÚTIL
+//EM CARTAS QUE ESTABELECEM UMA RELAÇÃO
+//2X2, COMO O BANG!, ESQUIVA!, ETC.
 // jogador get_holder(){
 //   return _holder.id();
 // }

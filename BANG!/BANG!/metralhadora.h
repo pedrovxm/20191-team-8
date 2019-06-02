@@ -16,7 +16,8 @@ class Metralhadora : public Carta{
       std::string suitname="HEARTS",
       std::string suitnumber="10"
     );
-  //virtual void efeito() override;
+  //virtual void efeito() override; //eu particularmente não acho uma boa ideia implementar essa função, fica a critério de vocês
+  //não consigo imaginar uma forma simples de fazer isso
 };
 
 

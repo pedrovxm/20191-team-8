@@ -5,8 +5,10 @@
 //#include "jogador.h"
 //#include "deck.h"
 
-//void Carroca::get_effect(){
-  //player = jogador.get_id();
-  //for(int i = 0; i < 2; i++)
-    //deck.comprar_carta(player);
-//}
+//void Carroagem::get_effect(){
+  //for(int i = 0; i < 3; i++)
+    //_holder->comprar_carta();
+//} //JOGADOR COM A CARTA EM MÃOS PODE COMPRAR 3 CARTAS
+
+Carroca::Carroca(std::string type, std::string description, std::string name, std::string suitname, std::string suitnumber):
+  Carta(type, description, name, suitname, suitnumber) {};

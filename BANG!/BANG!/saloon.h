@@ -10,8 +10,8 @@
 
 class Saloon : public Carta {
   public:
-    Saloon(std::string type="GROUP_LIFE_RECOVER",
-      std::string description="ALL PLAYERS GAINS ONE POINT OF LIFE.",
+    Saloon(std::string type="GROUP_DEFENSIVE",
+      std::string description="ALL PLAYERS GAIN ONE LIFE POINT",
       std::string name="SALAO",
       std::string suitname="SPADES",
       std::string suitnumber="5"
