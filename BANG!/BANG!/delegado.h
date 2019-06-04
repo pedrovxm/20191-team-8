@@ -8,9 +8,11 @@
 
 #include "papel.h"
 
-class Delegado : public Papel {
+class Delegado: public Papel {
 public:
-	virtual void check_win() override;
+    virtual void check_win() override;
+
+    Delegado();
 };
 
 

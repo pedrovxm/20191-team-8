@@ -3,7 +3,10 @@
 //
 
 #include "bandido.h"
-#include <iostream>
+
+Bandido::Bandido():
+    Papel("Bandido", "Matar o xerife", "COLOCAR LINK IMAGEM", false, 0) {}
+
 void Bandido::check_win() {
-	std::cout << "Funcao nao implementada" << std::endl;
+    std::cout << "Funcao nao implementada" << std::endl;
 }

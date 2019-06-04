@@ -8,11 +8,14 @@
 
 #include "papel.h"
 
-class Bandido : public Papel {
+class Bandido: public Papel {
 public:
-	virtual void check_win() override;
+    virtual void check_win() override;
+
+    Bandido();
 };
 
 
 #endif //TP_BANDIDO_H
+
 

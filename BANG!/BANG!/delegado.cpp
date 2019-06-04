@@ -3,7 +3,10 @@
 //
 
 #include "delegado.h"
-#include <iostream>
+
+Delegado::Delegado():
+    Papel("Delegado", "Proteger o xerife", "COLOCAR LINK IMAGEM", false, 0) {}
+
 void Delegado::check_win() {
-	std::cout << "Funcao nao implementada" << std::endl;
+    std::cout << "Funcao nao implementada" << std::endl;
 }
