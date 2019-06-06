@@ -14,12 +14,16 @@ class Dealer {
 		int aux = 0;
 		int width = 0;
 		int players = 4;
+		int card_num = 0;
+		int player_num = 0;
+		int pause_aux = 0;
 
 		bool running = true;
 		bool menu = true;
 		bool players_menu = false;
 		bool game_cards = false;
 		bool game = false;
+		bool pause_bool = false;
 
 		//display
 		ALLEGRO_DISPLAY* display;
@@ -65,6 +69,8 @@ class Dealer {
 		ALLEGRO_BITMAP* mira = NULL;
 		//mustang//
 		ALLEGRO_BITMAP* mustang = NULL;
+		//pause//
+		ALLEGRO_BITMAP* pause = NULL;
 
 		//music
 		ALLEGRO_SAMPLE* intro = al_load_sample("intro.ogg");
