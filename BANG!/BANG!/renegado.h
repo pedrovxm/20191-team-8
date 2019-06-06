@@ -10,7 +10,7 @@
 
 class Renegado: public Papel {
 public:
-    virtual void check_win() override;
+    virtual bool check_win(std::vector<Papel*> papeis) override;
 
     Renegado();
 };
