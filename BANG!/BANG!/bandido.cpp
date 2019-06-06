@@ -3,10 +3,27 @@
 //
 
 #include "bandido.h"
+#include "xerife.h"
 
 Bandido::Bandido():
     Papel("Bandido", "Matar o xerife", "COLOCAR LINK IMAGEM", false, 0) {}
 
-void Bandido::check_win() {
-    std::cout << "Funcao nao implementada" << std::endl;
+bool Bandido::check_win(std::vector<Papel*> papeis) {
+
+    Papel* papel_compara;
+
+    for (int i = 0; i < papeis.size(); i++) {
+
+        //Verifica se é xerife
+
+        papel_compara = dynamic_cast<Xerife*> (papeis[i]);
+
+        if(papel_compara) {
+            delete papel_compara;
+            return false;
+        }
+    }
+
+    delete papel_compara;
+    return true;
 }
