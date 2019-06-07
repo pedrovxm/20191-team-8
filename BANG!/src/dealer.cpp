@@ -34,6 +34,7 @@ void Dealer::initial_screen_config() {
 	al_install_audio();
 	al_init_acodec_addon();
 	al_register_event_source(this->queue, al_get_keyboard_event_source());
+	al_register_event_source(this->queue, al_get_mouse_event_source());
 	al_register_event_source(this->queue, al_get_display_event_source(display));
 	al_register_event_source(this->queue, al_get_timer_event_source(this->timer));
 	al_init_image_addon();
@@ -79,6 +80,8 @@ void Dealer::initial_screen_config() {
 	this->mira = al_load_bitmap("../assets/img/bitmap_initial.png");
 	//mustang//
 	this->mustang = al_load_bitmap("../assets/img/bitmap_initial.png");
+	//pause//
+	this->pause = al_load_bitmap("../assets/img/bitmap_initial.png");
 
 	assert(this->background != NULL);
 	al_set_window_title(this->display, "BANG!");
@@ -113,6 +116,7 @@ void Dealer::start_menu() {
 				this->background = al_load_bitmap("../assets/img/players4.png");
 			}
 		}
+
 	}
 
 	//ESCOLHA DO NUMERO DE JOGADORES//
@@ -207,9 +211,12 @@ void Dealer::start_menu() {
 		this->personagem_2 = al_load_bitmap("../assets/img/BART_CASSIDY.png");
 		this->personagem_3 = al_load_bitmap("../assets/img/BART_CASSIDY.png");
 		this->personagem_4 = al_load_bitmap("../assets/img/BART_CASSIDY.png");
-		this->personagem_5 = al_load_bitmap("../assets/img/BART_CASSIDY.png");
-		this->personagem_6 = al_load_bitmap("../assets/img/BART_CASSIDY.png");
-		this->personagem_7 = al_load_bitmap("../assets/img/BART_CASSIDY.png");
+		if (players > 4)
+			this->personagem_5 = al_load_bitmap("../assets/img/BART_CASSIDY.png");
+		if (players > 5)
+			this->personagem_6 = al_load_bitmap("../assets/img/BART_CASSIDY.png");
+		if (players > 6)
+			this->personagem_7 = al_load_bitmap("../assets/img/BART_CASSIDY.png");
 		//cartas//
 		this->carta_1 = al_load_bitmap("../assets/img/BANG!.png");
 		this->carta_2 = al_load_bitmap("../assets/img/BANG!.png");
@@ -287,15 +294,45 @@ void Dealer::start_menu() {
 		al_draw_bitmap(this->mira, 320, 290, 0);
 		//mustang//
 		al_draw_bitmap(this->mustang, 320, 397, 0);
+		//pause//
+		al_draw_bitmap(this->pause, 450, 0, 0);
 
 		al_flip_display();
 	}
-	if (event.type == ALLEGRO_EVENT_KEY_DOWN && event.keyboard.keycode == ALLEGRO_KEY_ESCAPE)
-	{
-		running = false;
-	}
 
+	//pause commands//
+	if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_ESCAPE)
+	{
+		this->pause = al_load_bitmap("../assets/img/pause0.png");
+		pause_bool = true;
+		game = false;
+	}
+	if (pause_bool == true)
+	{
+		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_ENTER && pause_aux == 0)
+		{
+			this->pause = al_load_bitmap("../assets/img/bitmap_initial.png");
+			game = true;
+			pause_bool = false;
+		}
+		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_RIGHT && pause_aux == 0)
+		{
+			this->pause = al_load_bitmap("../assets/img/pause1.png");
+			pause_aux = 1;
+		}
+		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_LEFT && pause_aux == 1)
+		{
+			this->pause = al_load_bitmap("../assets/img/pause0.png");
+			pause_aux = 0;
+		}
+		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_ENTER && pause_aux == 1)
+		{
+			running = false;
+		}
+
+	}
 }
+
 void Dealer::start() {
 	this->initial_screen_config();
 	while (this->running) {
@@ -347,4 +384,6 @@ void Dealer::end() {
 	al_destroy_bitmap(this->mira);
 	//mustang//
 	al_destroy_bitmap(this->mustang);
+	//pause//
+	al_destroy_bitmap(this->pause);
 }
