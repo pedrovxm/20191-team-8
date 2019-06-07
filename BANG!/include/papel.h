@@ -9,17 +9,20 @@
 #include <string>
 #include <iostream>
 
-class Papel {
-	protected:
-		std::string descricao;
-		std::string objetivos;
-		std::string imagem;
-		bool visivel;
-		int bonus_vida;
 
-	public:
-		virtual void check_win();
+class Papel {
+protected:
+    std::string _descricao;
+    std::string _objetivos;
+    std::string _imagem;
+    bool _visivel;
+    int _bonus_vida;
+
+public:
+    virtual void check_win();
+    Papel(std::string descricao, std::string objetivos, std::string imagem, bool visivel, int bonus_vida);
 };
 
 
 #endif //TP_PAPEL_H
+
