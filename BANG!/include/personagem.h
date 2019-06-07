@@ -10,14 +10,14 @@ class Personagem {
     ~Personagem();
     virtual void efeito();
   protected:
-    int Personagem::get_vida();
-    std::string Personagem::get_imagem();
-    std::string Personagem::get_nome();
-    std::string Personagem::get_descricao();
-    void Personagem::set_vida(int vida);
-    void Personagem::set_imagem(std::string imagem);
-    void Personagem::set_nome(std::string nome);
-    void Personagem::set_descricao(std::string descricao);
+    int get_vida();
+    std::string get_imagem();
+    std::string get_nome();
+    std::string get_descricao();
+    void set_vida(int vida);
+    void set_imagem(std::string imagem);
+    void set_nome(std::string nome);
+    void set_descricao(std::string descricao);
   private:
     int vida;
     std::string imagem;
