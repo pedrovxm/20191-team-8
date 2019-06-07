@@ -1,0 +1,1773 @@
+The system is: Linux - 4.19.45-1-MANJARO - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/adalbs/Documentos/allegro5/CMakeFiles/3.14.4/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/adalbs/Documentos/allegro5/CMakeFiles/3.14.4/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4b2e6/fast 
+/usr/bin/make -f CMakeFiles/cmTC_4b2e6.dir/build.make CMakeFiles/cmTC_4b2e6.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b2e6.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4b2e6.dir/testCCompiler.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4b2e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b2e6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4b2e6.dir/testCCompiler.c.o  -o cmTC_4b2e6 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_378ec/fast 
+/usr/bin/make -f CMakeFiles/cmTC_378ec.dir/build.make CMakeFiles/cmTC_378ec.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_378ec.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_378ec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto
+Thread model: posix
+gcc version 8.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_378ec.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/cc1 -quiet -v /usr/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_378ec.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccFURCMG.s
+GNU C17 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 2df020f26a3ff9f6612e9e917dc9b5b6
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_378ec.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_378ec.dir/CMakeCCompilerABI.c.o /tmp/ccFURCMG.s
+GNU assembler version 2.32 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_378ec.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_378ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_378ec.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_378ec.dir/CMakeCCompilerABI.c.o  -o cmTC_378ec 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto
+Thread model: posix
+gcc version 8.3.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_378ec' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc25yKFM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_378ec /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_378ec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_378ec' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_378ec/fast ]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_378ec.dir/build.make CMakeFiles/cmTC_378ec.dir/build]
+  ignore line: [make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_378ec.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_378ec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_378ec.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/cc1 -quiet -v /usr/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_378ec.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccFURCMG.s]
+  ignore line: [GNU C17 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 2df020f26a3ff9f6612e9e917dc9b5b6]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_378ec.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_378ec.dir/CMakeCCompilerABI.c.o /tmp/ccFURCMG.s]
+  ignore line: [GNU assembler version 2.32 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.32]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_378ec.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_378ec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_378ec.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_378ec.dir/CMakeCCompilerABI.c.o  -o cmTC_378ec ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_378ec' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc25yKFM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_378ec /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_378ec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc25yKFM.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_378ec] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..]
+    arg [CMakeFiles/cmTC_378ec.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0;/usr/lib;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c6a8c/fast 
+/usr/bin/make -f CMakeFiles/cmTC_c6a8c.dir/build.make CMakeFiles/cmTC_c6a8c.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6a8c.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_c6a8c.dir/feature_tests.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c6a8c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6a8c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c6a8c.dir/feature_tests.c.o  -o cmTC_c6a8c 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4081f/fast 
+/usr/bin/make -f CMakeFiles/cmTC_4081f.dir/build.make CMakeFiles/cmTC_4081f.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4081f.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_4081f.dir/feature_tests.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4081f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4081f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4081f.dir/feature_tests.c.o  -o cmTC_4081f 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f6951/fast 
+/usr/bin/make -f CMakeFiles/cmTC_f6951.dir/build.make CMakeFiles/cmTC_f6951.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6951.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_f6951.dir/feature_tests.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f6951
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6951.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f6951.dir/feature_tests.c.o  -o cmTC_f6951 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_be144/fast 
+/usr/bin/make -f CMakeFiles/cmTC_be144.dir/build.make CMakeFiles/cmTC_be144.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_be144.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_be144.dir/testCXXCompiler.cxx.o -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_be144
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be144.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_be144.dir/testCXXCompiler.cxx.o  -o cmTC_be144 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7af00/fast 
+/usr/bin/make -f CMakeFiles/cmTC_7af00.dir/build.make CMakeFiles/cmTC_7af00.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7af00.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_7af00.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto
+Thread model: posix
+gcc version 8.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7af00.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7af00.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccN2ZoGq.s
+GNU C++14 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: ed8750e1c68e1b18a3ec7b4c651e9b48
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7af00.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_7af00.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccN2ZoGq.s
+GNU assembler version 2.32 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7af00.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_7af00
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7af00.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_7af00.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7af00 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto
+Thread model: posix
+gcc version 8.3.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7af00' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQQOYUu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_7af00 /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_7af00.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7af00' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0] ==> [/usr/include/c++/8.3.0]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu] ==> [/usr/include/c++/8.3.0/x86_64-pc-linux-gnu]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward] ==> [/usr/include/c++/8.3.0/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/8.3.0;/usr/include/c++/8.3.0/x86_64-pc-linux-gnu;/usr/include/c++/8.3.0/backward;/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_7af00/fast ]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7af00.dir/build.make CMakeFiles/cmTC_7af00.dir/build]
+  ignore line: [make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_7af00.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_7af00.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7af00.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7af00.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccN2ZoGq.s]
+  ignore line: [GNU C++14 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 8.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: ed8750e1c68e1b18a3ec7b4c651e9b48]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7af00.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_7af00.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccN2ZoGq.s]
+  ignore line: [GNU assembler version 2.32 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.32]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7af00.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_7af00]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7af00.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_7af00.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7af00 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp --enable-cet=auto]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7af00' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQQOYUu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_7af00 /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../.. CMakeFiles/cmTC_7af00.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccQQOYUu.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7af00] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..]
+    arg [CMakeFiles/cmTC_7af00.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0;/usr/lib;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_30b16/fast 
+/usr/bin/make -f CMakeFiles/cmTC_30b16.dir/build.make CMakeFiles/cmTC_30b16.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_30b16.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_30b16.dir/feature_tests.cxx.o -c /home/adalbs/Documentos/allegro5/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_30b16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30b16.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_30b16.dir/feature_tests.cxx.o  -o cmTC_30b16 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_67342/fast 
+/usr/bin/make -f CMakeFiles/cmTC_67342.dir/build.make CMakeFiles/cmTC_67342.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_67342.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_67342.dir/feature_tests.cxx.o -c /home/adalbs/Documentos/allegro5/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_67342
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67342.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_67342.dir/feature_tests.cxx.o  -o cmTC_67342 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_76fe4/fast 
+/usr/bin/make -f CMakeFiles/cmTC_76fe4.dir/build.make CMakeFiles/cmTC_76fe4.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_76fe4.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_76fe4.dir/feature_tests.cxx.o -c /home/adalbs/Documentos/allegro5/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_76fe4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76fe4.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_76fe4.dir/feature_tests.cxx.o  -o cmTC_76fe4 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2959a/fast 
+/usr/bin/make -f CMakeFiles/cmTC_2959a.dir/build.make CMakeFiles/cmTC_2959a.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2959a.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_2959a.dir/feature_tests.cxx.o -c /home/adalbs/Documentos/allegro5/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2959a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2959a.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_2959a.dir/feature_tests.cxx.o  -o cmTC_2959a 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5aa0b/fast 
+/usr/bin/make -f CMakeFiles/cmTC_5aa0b.dir/build.make CMakeFiles/cmTC_5aa0b.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5aa0b.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_5aa0b.dir/feature_tests.cxx.o -c /home/adalbs/Documentos/allegro5/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5aa0b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5aa0b.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_5aa0b.dir/feature_tests.cxx.o  -o cmTC_5aa0b 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_31781/fast 
+/usr/bin/make -f CMakeFiles/cmTC_31781.dir/build.make CMakeFiles/cmTC_31781.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31781.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_31781.dir/CheckIncludeFile.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_31781
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31781.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_31781.dir/CheckIncludeFile.c.o  -o cmTC_31781 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_66c87/fast 
+/usr/bin/make -f CMakeFiles/cmTC_66c87.dir/build.make CMakeFiles/cmTC_66c87.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66c87.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_66c87.dir/CheckIncludeFile.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_66c87
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66c87.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_66c87.dir/CheckIncludeFile.c.o  -o cmTC_66c87 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0b795/fast 
+/usr/bin/make -f CMakeFiles/cmTC_0b795.dir/build.make CMakeFiles/cmTC_0b795.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b795.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_0b795.dir/CheckIncludeFile.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0b795
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b795.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_0b795.dir/CheckIncludeFile.c.o  -o cmTC_0b795 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f402e/fast 
+/usr/bin/make -f CMakeFiles/cmTC_f402e.dir/build.make CMakeFiles/cmTC_f402e.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f402e.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_f402e.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_f402e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f402e.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_f402e.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_f402e 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d8994/fast 
+/usr/bin/make -f CMakeFiles/cmTC_d8994.dir/build.make CMakeFiles/cmTC_d8994.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8994.dir/TestEndianess.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_d8994.dir/TestEndianess.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_d8994
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8994.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_d8994.dir/TestEndianess.c.o  -o cmTC_d8994 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if files dirent.h exist passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ceea8/fast 
+/usr/bin/make -f CMakeFiles/cmTC_ceea8.dir/build.make CMakeFiles/cmTC_ceea8.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ceea8.dir/ALLEGRO_HAVE_DIRENT_H.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_ceea8.dir/ALLEGRO_HAVE_DIRENT_H.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_DIRENT_H.c
+Linking C executable cmTC_ceea8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ceea8.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_ceea8.dir/ALLEGRO_HAVE_DIRENT_H.c.o  -o cmTC_ceea8 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a1009/fast 
+/usr/bin/make -f CMakeFiles/cmTC_a1009.dir/build.make CMakeFiles/cmTC_a1009.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1009.dir/ALLEGRO_HAVE_INTTYPES_H.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_a1009.dir/ALLEGRO_HAVE_INTTYPES_H.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_INTTYPES_H.c
+Linking C executable cmTC_a1009
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1009.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_a1009.dir/ALLEGRO_HAVE_INTTYPES_H.c.o  -o cmTC_a1009 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/input.h exist passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_31db9/fast 
+/usr/bin/make -f CMakeFiles/cmTC_31db9.dir/build.make CMakeFiles/cmTC_31db9.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31db9.dir/ALLEGRO_HAVE_LINUX_INPUT_H.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_31db9.dir/ALLEGRO_HAVE_LINUX_INPUT_H.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_LINUX_INPUT_H.c
+Linking C executable cmTC_31db9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31db9.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_31db9.dir/ALLEGRO_HAVE_LINUX_INPUT_H.c.o  -o cmTC_31db9 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e7ddd/fast 
+/usr/bin/make -f CMakeFiles/cmTC_e7ddd.dir/build.make CMakeFiles/cmTC_e7ddd.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7ddd.dir/ALLEGRO_HAVE_STDBOOL_H.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_e7ddd.dir/ALLEGRO_HAVE_STDBOOL_H.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_STDBOOL_H.c
+Linking C executable cmTC_e7ddd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7ddd.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_e7ddd.dir/ALLEGRO_HAVE_STDBOOL_H.c.o  -o cmTC_e7ddd 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_14695/fast 
+/usr/bin/make -f CMakeFiles/cmTC_14695.dir/build.make CMakeFiles/cmTC_14695.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14695.dir/ALLEGRO_HAVE_STDINT_H.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_14695.dir/ALLEGRO_HAVE_STDINT_H.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_STDINT_H.c
+Linking C executable cmTC_14695
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14695.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_14695.dir/ALLEGRO_HAVE_STDINT_H.c.o  -o cmTC_14695 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/io.h exist passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9d2fc/fast 
+/usr/bin/make -f CMakeFiles/cmTC_9d2fc.dir/build.make CMakeFiles/cmTC_9d2fc.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d2fc.dir/ALLEGRO_HAVE_SYS_IO_H.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_9d2fc.dir/ALLEGRO_HAVE_SYS_IO_H.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_SYS_IO_H.c
+Linking C executable cmTC_9d2fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d2fc.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_9d2fc.dir/ALLEGRO_HAVE_SYS_IO_H.c.o  -o cmTC_9d2fc 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ff781/fast 
+/usr/bin/make -f CMakeFiles/cmTC_ff781.dir/build.make CMakeFiles/cmTC_ff781.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff781.dir/ALLEGRO_HAVE_SYS_STAT_H.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_ff781.dir/ALLEGRO_HAVE_SYS_STAT_H.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_SYS_STAT_H.c
+Linking C executable cmTC_ff781
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff781.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_ff781.dir/ALLEGRO_HAVE_SYS_STAT_H.c.o  -o cmTC_ff781 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cc4d4/fast 
+/usr/bin/make -f CMakeFiles/cmTC_cc4d4.dir/build.make CMakeFiles/cmTC_cc4d4.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc4d4.dir/ALLEGRO_HAVE_SYS_TIME_H.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_cc4d4.dir/ALLEGRO_HAVE_SYS_TIME_H.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_SYS_TIME_H.c
+Linking C executable cmTC_cc4d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc4d4.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_cc4d4.dir/ALLEGRO_HAVE_SYS_TIME_H.c.o  -o cmTC_cc4d4 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_397e1/fast 
+/usr/bin/make -f CMakeFiles/cmTC_397e1.dir/build.make CMakeFiles/cmTC_397e1.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_397e1.dir/ALLEGRO_HAVE_TIME_H.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_397e1.dir/ALLEGRO_HAVE_TIME_H.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_TIME_H.c
+Linking C executable cmTC_397e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_397e1.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_397e1.dir/ALLEGRO_HAVE_TIME_H.c.o  -o cmTC_397e1 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/utsname.h exist passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d57e3/fast 
+/usr/bin/make -f CMakeFiles/cmTC_d57e3.dir/build.make CMakeFiles/cmTC_d57e3.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d57e3.dir/ALLEGRO_HAVE_SYS_UTSNAME_H.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_d57e3.dir/ALLEGRO_HAVE_SYS_UTSNAME_H.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_SYS_UTSNAME_H.c
+Linking C executable cmTC_d57e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d57e3.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_d57e3.dir/ALLEGRO_HAVE_SYS_UTSNAME_H.c.o  -o cmTC_d57e3 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a51e1/fast 
+/usr/bin/make -f CMakeFiles/cmTC_a51e1.dir/build.make CMakeFiles/cmTC_a51e1.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a51e1.dir/ALLEGRO_HAVE_SYS_TYPES_H.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_a51e1.dir/ALLEGRO_HAVE_SYS_TYPES_H.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_SYS_TYPES_H.c
+Linking C executable cmTC_a51e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a51e1.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_a51e1.dir/ALLEGRO_HAVE_SYS_TYPES_H.c.o  -o cmTC_a51e1 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/soundcard.h exist passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_02f0d/fast 
+/usr/bin/make -f CMakeFiles/cmTC_02f0d.dir/build.make CMakeFiles/cmTC_02f0d.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02f0d.dir/ALLEGRO_HAVE_SYS_SOUNDCARD_H.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_02f0d.dir/ALLEGRO_HAVE_SYS_SOUNDCARD_H.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_SYS_SOUNDCARD_H.c
+Linking C executable cmTC_02f0d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02f0d.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_02f0d.dir/ALLEGRO_HAVE_SYS_SOUNDCARD_H.c.o  -o cmTC_02f0d 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/soundcard.h exist passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f0c7e/fast 
+/usr/bin/make -f CMakeFiles/cmTC_f0c7e.dir/build.make CMakeFiles/cmTC_f0c7e.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0c7e.dir/ALLEGRO_HAVE_LINUX_SOUNDCARD_H.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_f0c7e.dir/ALLEGRO_HAVE_LINUX_SOUNDCARD_H.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_LINUX_SOUNDCARD_H.c
+Linking C executable cmTC_f0c7e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0c7e.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_f0c7e.dir/ALLEGRO_HAVE_LINUX_SOUNDCARD_H.c.o  -o cmTC_f0c7e 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/inotify.h exist passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dddb4/fast 
+/usr/bin/make -f CMakeFiles/cmTC_dddb4.dir/build.make CMakeFiles/cmTC_dddb4.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dddb4.dir/ALLEGRO_HAVE_SYS_INOTIFY_H.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_dddb4.dir/ALLEGRO_HAVE_SYS_INOTIFY_H.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_SYS_INOTIFY_H.c
+Linking C executable cmTC_dddb4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dddb4.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_dddb4.dir/ALLEGRO_HAVE_SYS_INOTIFY_H.c.o  -o cmTC_dddb4 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mkstemp exists passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5e233/fast 
+/usr/bin/make -f CMakeFiles/cmTC_5e233.dir/build.make CMakeFiles/cmTC_5e233.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e233.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=mkstemp   -o CMakeFiles/cmTC_5e233.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5e233
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e233.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=mkstemp    -rdynamic CMakeFiles/cmTC_5e233.dir/CheckFunctionExists.c.o  -o cmTC_5e233 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7c4be/fast 
+/usr/bin/make -f CMakeFiles/cmTC_7c4be.dir/build.make CMakeFiles/cmTC_7c4be.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c4be.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=mmap   -o CMakeFiles/cmTC_7c4be.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7c4be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c4be.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=mmap    -rdynamic CMakeFiles/cmTC_7c4be.dir/CheckFunctionExists.c.o  -o cmTC_7c4be 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mprotect exists passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_75ee9/fast 
+/usr/bin/make -f CMakeFiles/cmTC_75ee9.dir/build.make CMakeFiles/cmTC_75ee9.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75ee9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=mprotect   -o CMakeFiles/cmTC_75ee9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_75ee9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75ee9.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=mprotect    -rdynamic CMakeFiles/cmTC_75ee9.dir/CheckFunctionExists.c.o  -o cmTC_75ee9 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sched_yield exists passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5f4ab/fast 
+/usr/bin/make -f CMakeFiles/cmTC_5f4ab.dir/build.make CMakeFiles/cmTC_5f4ab.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f4ab.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=sched_yield   -o CMakeFiles/cmTC_5f4ab.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5f4ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f4ab.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=sched_yield    -rdynamic CMakeFiles/cmTC_5f4ab.dir/CheckFunctionExists.c.o  -o cmTC_5f4ab 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sysconf exists passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4bf03/fast 
+/usr/bin/make -f CMakeFiles/cmTC_4bf03.dir/build.make CMakeFiles/cmTC_4bf03.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4bf03.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=sysconf   -o CMakeFiles/cmTC_4bf03.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4bf03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bf03.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=sysconf    -rdynamic CMakeFiles/cmTC_4bf03.dir/CheckFunctionExists.c.o  -o cmTC_4bf03 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_836a2/fast 
+/usr/bin/make -f CMakeFiles/cmTC_836a2.dir/build.make CMakeFiles/cmTC_836a2.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_836a2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTC_836a2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_836a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_836a2.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=fseeko    -rdynamic CMakeFiles/cmTC_836a2.dir/CheckFunctionExists.c.o  -o cmTC_836a2 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ftello exists passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_22f1c/fast 
+/usr/bin/make -f CMakeFiles/cmTC_22f1c.dir/build.make CMakeFiles/cmTC_22f1c.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22f1c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=ftello   -o CMakeFiles/cmTC_22f1c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_22f1c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22f1c.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=ftello    -rdynamic CMakeFiles/cmTC_22f1c.dir/CheckFunctionExists.c.o  -o cmTC_22f1c 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strerror_r exists passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c78c2/fast 
+/usr/bin/make -f CMakeFiles/cmTC_c78c2.dir/build.make CMakeFiles/cmTC_c78c2.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c78c2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=strerror_r   -o CMakeFiles/cmTC_c78c2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c78c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c78c2.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=strerror_r    -rdynamic CMakeFiles/cmTC_c78c2.dir/CheckFunctionExists.c.o  -o cmTC_c78c2 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining size of _Bool passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_78489/fast 
+/usr/bin/make -f CMakeFiles/cmTC_78489.dir/build.make CMakeFiles/cmTC_78489.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78489.dir/ALLEGRO_HAVE__BOOL.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_78489.dir/ALLEGRO_HAVE__BOOL.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CheckTypeSize/ALLEGRO_HAVE__BOOL.c
+Linking C executable cmTC_78489
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78489.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_78489.dir/ALLEGRO_HAVE__BOOL.c.o  -o cmTC_78489 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test ALLEGRO_HAVE_VA_COPY succeeded with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_77a92/fast 
+/usr/bin/make -f CMakeFiles/cmTC_77a92.dir/build.make CMakeFiles/cmTC_77a92.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77a92.dir/src.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DALLEGRO_HAVE_VA_COPY   -o CMakeFiles/cmTC_77a92.dir/src.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_77a92
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77a92.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DALLEGRO_HAVE_VA_COPY    -rdynamic CMakeFiles/cmTC_77a92.dir/src.c.o  -o cmTC_77a92 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <stdarg.h>
+    int main(void) {
+        va_list a, b;
+        va_copy(a, b);
+        return 0;
+    }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8f724/fast 
+/usr/bin/make -f CMakeFiles/cmTC_8f724.dir/build.make CMakeFiles/cmTC_8f724.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f724.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_8f724.dir/CheckIncludeFile.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8f724
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f724.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_8f724.dir/CheckIncludeFile.c.o  -o cmTC_8f724 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_58cc6/fast 
+/usr/bin/make -f CMakeFiles/cmTC_58cc6.dir/build.make CMakeFiles/cmTC_58cc6.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58cc6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_58cc6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_58cc6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58cc6.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_58cc6.dir/CheckFunctionExists.c.o  -o cmTC_58cc6 -lpthread 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/libX11.so;/usr/lib/libXext.so passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_def17/fast 
+/usr/bin/make -f CMakeFiles/cmTC_def17.dir/build.make CMakeFiles/cmTC_def17.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_def17.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_def17.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_def17
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_def17.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_def17.dir/CheckFunctionExists.c.o  -o cmTC_def17 /usr/lib/libX11.so /usr/lib/libXext.so 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c0d0a/fast 
+/usr/bin/make -f CMakeFiles/cmTC_c0d0a.dir/build.make CMakeFiles/cmTC_c0d0a.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0d0a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_c0d0a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c0d0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0d0a.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_c0d0a.dir/CheckFunctionExists.c.o  -o cmTC_c0d0a 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dc935/fast 
+/usr/bin/make -f CMakeFiles/cmTC_dc935.dir/build.make CMakeFiles/cmTC_dc935.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc935.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_dc935.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dc935
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc935.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_dc935.dir/CheckFunctionExists.c.o  -o cmTC_dc935 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2774f/fast 
+/usr/bin/make -f CMakeFiles/cmTC_2774f.dir/build.make CMakeFiles/cmTC_2774f.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2774f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_2774f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2774f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2774f.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_2774f.dir/CheckFunctionExists.c.o  -o cmTC_2774f 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a7323/fast 
+/usr/bin/make -f CMakeFiles/cmTC_a7323.dir/build.make CMakeFiles/cmTC_a7323.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7323.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_a7323.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a7323
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7323.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_a7323.dir/CheckFunctionExists.c.o  -o cmTC_a7323 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7d388/fast 
+/usr/bin/make -f CMakeFiles/cmTC_7d388.dir/build.make CMakeFiles/cmTC_7d388.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d388.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_7d388.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7d388
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d388.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_7d388.dir/CheckFunctionExists.c.o  -o cmTC_7d388 -lICE 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XcursorImageCreate exists in the Xcursor passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_077b9/fast 
+/usr/bin/make -f CMakeFiles/cmTC_077b9.dir/build.make CMakeFiles/cmTC_077b9.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_077b9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=XcursorImageCreate   -o CMakeFiles/cmTC_077b9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_077b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_077b9.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=XcursorImageCreate    -rdynamic CMakeFiles/cmTC_077b9.dir/CheckFunctionExists.c.o  -o cmTC_077b9 -lXcursor /usr/lib/libSM.so /usr/lib/libICE.so /usr/lib/libX11.so /usr/lib/libXext.so 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XpmCreatePixmapFromData exists in the Xpm passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c71ac/fast 
+/usr/bin/make -f CMakeFiles/cmTC_c71ac.dir/build.make CMakeFiles/cmTC_c71ac.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c71ac.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=XpmCreatePixmapFromData   -o CMakeFiles/cmTC_c71ac.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c71ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c71ac.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=XpmCreatePixmapFromData    -rdynamic CMakeFiles/cmTC_c71ac.dir/CheckFunctionExists.c.o  -o cmTC_c71ac -lXpm /usr/lib/libSM.so /usr/lib/libICE.so /usr/lib/libX11.so /usr/lib/libXext.so 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file X11/extensions/XInput2.h exists passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ba9fb/fast 
+/usr/bin/make -f CMakeFiles/cmTC_ba9fb.dir/build.make CMakeFiles/cmTC_ba9fb.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba9fb.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_ba9fb.dir/CheckIncludeFile.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ba9fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba9fb.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_ba9fb.dir/CheckIncludeFile.c.o  -o cmTC_ba9fb 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test XINPUT2_COMPILES succeeded with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fa3b3/fast 
+/usr/bin/make -f CMakeFiles/cmTC_fa3b3.dir/build.make CMakeFiles/cmTC_fa3b3.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa3b3.dir/src.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DXINPUT2_COMPILES   -o CMakeFiles/cmTC_fa3b3.dir/src.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fa3b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa3b3.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DXINPUT2_COMPILES    -rdynamic CMakeFiles/cmTC_fa3b3.dir/src.c.o  -o cmTC_fa3b3 /usr/lib/libSM.so /usr/lib/libICE.so /usr/lib/libX11.so /usr/lib/libXext.so 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #include <X11/extensions/XInput2.h>
+        int main(void) { (void)XI_TouchBegin; return 0; }
+Determining if the function XF86VidModeQueryExtension exists in the Xxf86vm passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0a7b6/fast 
+/usr/bin/make -f CMakeFiles/cmTC_0a7b6.dir/build.make CMakeFiles/cmTC_0a7b6.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a7b6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=XF86VidModeQueryExtension   -o CMakeFiles/cmTC_0a7b6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0a7b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a7b6.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=XF86VidModeQueryExtension    -rdynamic CMakeFiles/cmTC_0a7b6.dir/CheckFunctionExists.c.o  -o cmTC_0a7b6 -lXxf86vm /usr/lib/libSM.so /usr/lib/libICE.so /usr/lib/libX11.so /usr/lib/libXext.so 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file X11/extensions/Xinerama.h exists passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_160fc/fast 
+/usr/bin/make -f CMakeFiles/cmTC_160fc.dir/build.make CMakeFiles/cmTC_160fc.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_160fc.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_160fc.dir/CheckIncludeFile.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_160fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_160fc.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_160fc.dir/CheckIncludeFile.c.o  -o cmTC_160fc 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XineramaQueryExtension exists in the Xinerama passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9536b/fast 
+/usr/bin/make -f CMakeFiles/cmTC_9536b.dir/build.make CMakeFiles/cmTC_9536b.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9536b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=XineramaQueryExtension   -o CMakeFiles/cmTC_9536b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9536b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9536b.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=XineramaQueryExtension    -rdynamic CMakeFiles/cmTC_9536b.dir/CheckFunctionExists.c.o  -o cmTC_9536b -lXinerama /usr/lib/libSM.so /usr/lib/libICE.so /usr/lib/libX11.so /usr/lib/libXext.so 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file X11/extensions/Xrandr.h exists passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_996c9/fast 
+/usr/bin/make -f CMakeFiles/cmTC_996c9.dir/build.make CMakeFiles/cmTC_996c9.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_996c9.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_996c9.dir/CheckIncludeFile.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_996c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_996c9.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_996c9.dir/CheckIncludeFile.c.o  -o cmTC_996c9 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XRRQueryExtension exists in the Xrandr passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6b0ee/fast 
+/usr/bin/make -f CMakeFiles/cmTC_6b0ee.dir/build.make CMakeFiles/cmTC_6b0ee.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6b0ee.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=XRRQueryExtension   -o CMakeFiles/cmTC_6b0ee.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6b0ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b0ee.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=XRRQueryExtension    -rdynamic CMakeFiles/cmTC_6b0ee.dir/CheckFunctionExists.c.o  -o cmTC_6b0ee -lXrandr /usr/lib/libSM.so /usr/lib/libICE.so /usr/lib/libX11.so /usr/lib/libXext.so 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XOpenIM exists in the X11 passed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0ec1d/fast 
+/usr/bin/make -f CMakeFiles/cmTC_0ec1d.dir/build.make CMakeFiles/cmTC_0ec1d.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ec1d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=XOpenIM   -o CMakeFiles/cmTC_0ec1d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0ec1d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ec1d.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=XOpenIM    -rdynamic CMakeFiles/cmTC_0ec1d.dir/CheckFunctionExists.c.o  -o cmTC_0ec1d -lX11 /usr/lib/libSM.so /usr/lib/libICE.so /usr/lib/libX11.so /usr/lib/libXext.so 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test OSS_COMPILES succeeded with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_94837/fast 
+/usr/bin/make -f CMakeFiles/cmTC_94837.dir/build.make CMakeFiles/cmTC_94837.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94837.dir/src.c.o
+/usr/bin/cc -DALLEGRO_HAVE_LINUX_SOUNDCARD_H -DALLEGRO_HAVE_SYS_SOUNDCARD_H  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DOSS_COMPILES   -o CMakeFiles/cmTC_94837.dir/src.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:15:28: warning: unused variable ‘abi’ [-Wunused-variable]
+             audio_buf_info abi;
+                            ^~~
+Linking C executable cmTC_94837
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94837.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DOSS_COMPILES    -rdynamic CMakeFiles/cmTC_94837.dir/src.c.o  -o cmTC_94837 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #ifdef ALLEGRO_HAVE_SOUNDCARD_H
+        #include <soundcard.h>
+        #endif
+        #ifdef ALLEGRO_HAVE_SYS_SOUNDCARD_H
+        #include <sys/soundcard.h>
+        #endif
+        #ifdef ALLEGRO_HAVE_LINUX_SOUNDCARD_H
+        #include <linux/soundcard.h>
+        #endif
+        #ifdef ALLEGRO_HAVE_MACHINE_SOUNDCARD_H
+        #include <machine/soundcard.h>
+        #endif
+        int main(void) {
+            audio_buf_info abi;
+            return 0;
+        }
+Performing C SOURCE FILE Test PULSEAUDIO_COMPILES succeeded with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6c628/fast 
+/usr/bin/make -f CMakeFiles/cmTC_6c628.dir/build.make CMakeFiles/cmTC_6c628.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c628.dir/src.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DPULSEAUDIO_COMPILES   -o CMakeFiles/cmTC_6c628.dir/src.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:11:34: warning: unused variable ‘ss’ [-Wunused-variable]
+                 pa_sink_state_t *ss;
+                                  ^~
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:10:31: warning: unused variable ‘si’ [-Wunused-variable]
+                 pa_sink_info *si;
+                               ^~
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:9:29: warning: unused variable ‘c’ [-Wunused-variable]
+                 pa_context *c;
+                             ^
+Linking C executable cmTC_6c628
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c628.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DPULSEAUDIO_COMPILES    -rdynamic CMakeFiles/cmTC_6c628.dir/src.c.o  -o cmTC_6c628 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+            #include <pulse/simple.h>
+            #include <pulse/error.h>
+            #include <pulse/introspect.h>
+            #include <pulse/mainloop.h>
+            int main(void)
+            {
+                /* Require pulseaudio 0.9.15 */
+                pa_context *c;
+                pa_sink_info *si;
+                pa_sink_state_t *ss;
+                return 0;
+            }
+Performing C SOURCE FILE Test FLAC_COMPILES succeeded with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ffff4/fast 
+/usr/bin/make -f CMakeFiles/cmTC_ffff4.dir/build.make CMakeFiles/cmTC_ffff4.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ffff4.dir/src.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DFLAC_COMPILES   -o CMakeFiles/cmTC_ffff4.dir/src.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ffff4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffff4.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DFLAC_COMPILES    -rdynamic CMakeFiles/cmTC_ffff4.dir/src.c.o  -o cmTC_ffff4 /usr/lib/libFLAC.so /usr/lib/libogg.so -lm 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+            #include <FLAC/stream_decoder.h>
+            int main(void)
+            {
+                (void)FLAC__stream_decoder_new();
+                return 0;
+            }
+Performing C SOURCE FILE Test DUMB_COMPILES succeeded with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1582e/fast 
+/usr/bin/make -f CMakeFiles/cmTC_1582e.dir/build.make CMakeFiles/cmTC_1582e.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1582e.dir/src.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DDUMB_COMPILES   -o CMakeFiles/cmTC_1582e.dir/src.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1582e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1582e.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DDUMB_COMPILES    -rdynamic CMakeFiles/cmTC_1582e.dir/src.c.o  -o cmTC_1582e /usr/lib/libdumb.so -lm 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+            #define _FILE_OFFSET_BITS 64
+            #include <dumb.h>
+            #if (DUMB_MAJOR_VERSION) == 1
+                #error libdumb 1.0 not supported, get >= 2.0 or 0.9.3
+            #endif
+            int main(void)
+            {
+                dumb_register_stdfiles();
+                return 0;
+            }
+Performing C SOURCE FILE Test VORBIS_COMPILES succeeded with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e5232/fast 
+/usr/bin/make -f CMakeFiles/cmTC_e5232.dir/build.make CMakeFiles/cmTC_e5232.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5232.dir/src.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DVORBIS_COMPILES   -o CMakeFiles/cmTC_e5232.dir/src.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:6:30: warning: variable ‘callback’ set but not used [-Wunused-but-set-variable]
+                 ov_callbacks callback;
+                              ^~~~~~~~
+Linking C executable cmTC_e5232
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5232.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DVORBIS_COMPILES    -rdynamic CMakeFiles/cmTC_e5232.dir/src.c.o  -o cmTC_e5232 /usr/lib/libvorbisfile.so /usr/lib/libvorbis.so /usr/lib/libogg.so -lm 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+            #include <vorbis/vorbisfile.h>
+            int main(void)
+            {
+                OggVorbis_File f;
+                ov_callbacks callback;
+                vorbis_info *v = 0;
+                (void)v;
+                ov_info(&f, -1);
+                callback = OV_CALLBACKS_NOCLOSE;
+                return 0;
+            }
+Performing C SOURCE FILE Test OPUS_COMPILES succeeded with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_580d1/fast 
+/usr/bin/make -f CMakeFiles/cmTC_580d1.dir/build.make CMakeFiles/cmTC_580d1.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_580d1.dir/src.c.o
+/usr/bin/cc  -I/usr/include/opus  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DOPUS_COMPILES   -o CMakeFiles/cmTC_580d1.dir/src.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:8:17: warning: ‘f’ is used uninitialized in this function [-Wuninitialized]
+                 op_free(f);
+                 ^~~~~~~~~~
+Linking C executable cmTC_580d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_580d1.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DOPUS_COMPILES    -rdynamic CMakeFiles/cmTC_580d1.dir/src.c.o  -o cmTC_580d1 /usr/lib/libopusfile.so /usr/lib/libopus.so /usr/lib/libogg.so -lm 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+            #include <opus/opusfile.h>
+            int main(void)
+            {
+                OggOpusFile *f;
+                OpusHead *v = 0;
+                (void)v;
+                op_free(f);
+                return 0;
+            }
+Performing C SOURCE FILE Test TTF_COMPILES succeeded with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_31bf0/fast 
+/usr/bin/make -f CMakeFiles/cmTC_31bf0.dir/build.make CMakeFiles/cmTC_31bf0.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31bf0.dir/src.c.o
+/usr/bin/cc  -I/usr/include/freetype2  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DTTF_COMPILES   -o CMakeFiles/cmTC_31bf0.dir/src.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:9:26: warning: unused variable ‘e’ [-Wunused-variable]
+                 FT_Error e;
+                          ^
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:13:24: warning: ‘ft_index’ is used uninitialized in this function [-Wuninitialized]
+                 return FT_Load_Glyph(face, ft_index, ft_load_flags);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:13:24: warning: ‘ft_load_flags’ is used uninitialized in this function [-Wuninitialized]
+Linking C executable cmTC_31bf0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31bf0.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DTTF_COMPILES    -rdynamic CMakeFiles/cmTC_31bf0.dir/src.c.o  -o cmTC_31bf0 /usr/lib/libfreetype.so 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+            #include <ft2build.h>
+            #include FT_FREETYPE_H
+            int main(void) {
+                FT_Library ft;
+                FT_Open_Args args;
+                FT_Face face;
+                FT_Int32 ft_load_flags;
+                FT_Error e;
+                int ft_index;
+                FT_Init_FreeType(&ft);
+                FT_Open_Face(ft, &args, 0, &face);
+                return FT_Load_Glyph(face, ft_index, ft_load_flags);
+            }
+Performing C SOURCE FILE Test PHYSFS_IMPLICIT_ZLIB succeeded with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6ea7d/fast 
+/usr/bin/make -f CMakeFiles/cmTC_6ea7d.dir/build.make CMakeFiles/cmTC_6ea7d.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ea7d.dir/src.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DPHYSFS_IMPLICIT_ZLIB   -o CMakeFiles/cmTC_6ea7d.dir/src.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6ea7d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ea7d.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DPHYSFS_IMPLICIT_ZLIB    -rdynamic CMakeFiles/cmTC_6ea7d.dir/src.c.o  -o cmTC_6ea7d /usr/lib/libphysfs.so 
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+            #include <physfs.h>
+
+            int main(int argc, char **argv)
+            {
+                (void)argc;
+                PHYSFS_init(argv[0]);
+                PHYSFS_deinit();
+                return 0;
+            }

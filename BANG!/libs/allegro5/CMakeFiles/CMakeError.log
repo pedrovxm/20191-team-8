@@ -1,0 +1,537 @@
+Determining if files soundcard.h exist failed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f8ef1/fast 
+/usr/bin/make -f CMakeFiles/cmTC_f8ef1.dir/build.make CMakeFiles/cmTC_f8ef1.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8ef1.dir/ALLEGRO_HAVE_SOUNDCARD_H.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_f8ef1.dir/ALLEGRO_HAVE_SOUNDCARD_H.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_SOUNDCARD_H.c
+/home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_SOUNDCARD_H.c:2:10: fatal error: soundcard.h: Arquivo ou diretório inexistente
+ #include <soundcard.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_f8ef1.dir/build.make:66: CMakeFiles/cmTC_f8ef1.dir/ALLEGRO_HAVE_SOUNDCARD_H.c.o] Error 1
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_f8ef1/fast] Error 2
+
+Source:
+/* */
+#include <soundcard.h>
+
+
+int main(void){return 0;}
+
+Determining if files machine/soundcard.h exist failed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0620a/fast 
+/usr/bin/make -f CMakeFiles/cmTC_0620a.dir/build.make CMakeFiles/cmTC_0620a.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0620a.dir/ALLEGRO_HAVE_MACHINE_SOUNDCARD_H.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_0620a.dir/ALLEGRO_HAVE_MACHINE_SOUNDCARD_H.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_MACHINE_SOUNDCARD_H.c
+/home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_MACHINE_SOUNDCARD_H.c:2:10: fatal error: machine/soundcard.h: Arquivo ou diretório inexistente
+ #include <machine/soundcard.h>
+          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_0620a.dir/build.make:66: CMakeFiles/cmTC_0620a.dir/ALLEGRO_HAVE_MACHINE_SOUNDCARD_H.c.o] Error 1
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_0620a/fast] Error 2
+
+Source:
+/* */
+#include <machine/soundcard.h>
+
+
+int main(void){return 0;}
+
+Determining if files libkern/OSAtomic.h exist failed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1f9f1/fast 
+/usr/bin/make -f CMakeFiles/cmTC_1f9f1.dir/build.make CMakeFiles/cmTC_1f9f1.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f9f1.dir/ALLEGRO_HAVE_OSATOMIC_H.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_1f9f1.dir/ALLEGRO_HAVE_OSATOMIC_H.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_OSATOMIC_H.c
+/home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_OSATOMIC_H.c:2:10: fatal error: libkern/OSAtomic.h: Arquivo ou diretório inexistente
+ #include <libkern/OSAtomic.h>
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_1f9f1.dir/build.make:66: CMakeFiles/cmTC_1f9f1.dir/ALLEGRO_HAVE_OSATOMIC_H.c.o] Error 1
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1f9f1/fast] Error 2
+
+Source:
+/* */
+#include <libkern/OSAtomic.h>
+
+
+int main(void){return 0;}
+
+Determining if files sal.h exist failed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_09e4c/fast 
+/usr/bin/make -f CMakeFiles/cmTC_09e4c.dir/build.make CMakeFiles/cmTC_09e4c.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09e4c.dir/ALLEGRO_HAVE_SAL_H.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_09e4c.dir/ALLEGRO_HAVE_SAL_H.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_SAL_H.c
+/home/adalbs/Documentos/allegro5/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_SAL_H.c:2:10: fatal error: sal.h: Arquivo ou diretório inexistente
+ #include <sal.h>
+          ^~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_09e4c.dir/build.make:66: CMakeFiles/cmTC_09e4c.dir/ALLEGRO_HAVE_SAL_H.c.o] Error 1
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_09e4c/fast] Error 2
+
+Source:
+/* */
+#include <sal.h>
+
+
+int main(void){return 0;}
+
+Determining if the function getexecname exists failed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1e955/fast 
+/usr/bin/make -f CMakeFiles/cmTC_1e955.dir/build.make CMakeFiles/cmTC_1e955.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e955.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=getexecname   -o CMakeFiles/cmTC_1e955.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1e955
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e955.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=getexecname    -rdynamic CMakeFiles/cmTC_1e955.dir/CheckFunctionExists.c.o  -o cmTC_1e955 
+/usr/bin/ld: CMakeFiles/cmTC_1e955.dir/CheckFunctionExists.c.o: na função "main":
+CheckFunctionExists.c:(.text+0x10): referência não definida para "getexecname"
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_1e955.dir/build.make:87: cmTC_1e955] Error 1
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1e955/fast] Error 2
+
+
+Determining if the function strerror_s exists failed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1731b/fast 
+/usr/bin/make -f CMakeFiles/cmTC_1731b.dir/build.make CMakeFiles/cmTC_1731b.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1731b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=strerror_s   -o CMakeFiles/cmTC_1731b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1731b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1731b.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=strerror_s    -rdynamic CMakeFiles/cmTC_1731b.dir/CheckFunctionExists.c.o  -o cmTC_1731b 
+/usr/bin/ld: CMakeFiles/cmTC_1731b.dir/CheckFunctionExists.c.o: na função "main":
+CheckFunctionExists.c:(.text+0x10): referência não definida para "strerror_s"
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_1731b.dir/build.make:87: cmTC_1731b] Error 1
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1731b/fast] Error 2
+
+
+Performing C SOURCE FILE Test ALLEGRO_HAVE_PROCFS_ARGCV failed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b674d/fast 
+/usr/bin/make -f CMakeFiles/cmTC_b674d.dir/build.make CMakeFiles/cmTC_b674d.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b674d.dir/src.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DALLEGRO_HAVE_PROCFS_ARGCV   -o CMakeFiles/cmTC_b674d.dir/src.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:4:25: error: storage size of ‘psinfo’ isn’t known
+         struct prpsinfo psinfo;
+                         ^~~~~~
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:4:25: warning: unused variable ‘psinfo’ [-Wunused-variable]
+make[1]: *** [CMakeFiles/cmTC_b674d.dir/build.make:66: CMakeFiles/cmTC_b674d.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b674d/fast] Error 2
+
+Source file was:
+
+    #include <sys/procfs.h>
+    int main(void) {
+        struct prpsinfo psinfo;
+        psinfo.pr_argc = 0;
+        return 0;
+    }
+Performing C SOURCE FILE Test ALLEGRO_HAVE_SV_PROCFS_H failed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f350f/fast 
+/usr/bin/make -f CMakeFiles/cmTC_f350f.dir/build.make CMakeFiles/cmTC_f350f.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f350f.dir/src.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DALLEGRO_HAVE_SV_PROCFS_H   -o CMakeFiles/cmTC_f350f.dir/src.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:5:25: error: storage size of ‘psinfo’ isn’t known
+         struct prpsinfo psinfo;
+                         ^~~~~~
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:6:18: error: ‘PIOCPSINFO’ undeclared (first use in this function); did you mean ‘TIOCLINUX’?
+         ioctl(0, PIOCPSINFO, &psinfo);
+                  ^~~~~~~~~~
+                  TIOCLINUX
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:6:18: note: each undeclared identifier is reported only once for each function it appears in
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:5:25: warning: unused variable ‘psinfo’ [-Wunused-variable]
+         struct prpsinfo psinfo;
+                         ^~~~~~
+make[1]: *** [CMakeFiles/cmTC_f350f.dir/build.make:66: CMakeFiles/cmTC_f350f.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_f350f/fast] Error 2
+
+Source file was:
+
+    #include <sys/procfs.h>
+    #include <sys/ioctl.h>
+    int main(void) {
+        struct prpsinfo psinfo;
+        ioctl(0, PIOCPSINFO, &psinfo);
+        return 0;
+    }
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e8415/fast 
+/usr/bin/make -f CMakeFiles/cmTC_e8415.dir/build.make CMakeFiles/cmTC_e8415.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8415.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_e8415.dir/CheckSymbolExists.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e8415
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8415.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes     -rdynamic CMakeFiles/cmTC_e8415.dir/CheckSymbolExists.c.o  -o cmTC_e8415 
+/usr/bin/ld: CMakeFiles/cmTC_e8415.dir/CheckSymbolExists.c.o: na função "main":
+CheckSymbolExists.c:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_e8415.dir/build.make:87: cmTC_e8415] Error 1
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e8415/fast] Error 2
+
+File /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ddff1/fast 
+/usr/bin/make -f CMakeFiles/cmTC_ddff1.dir/build.make CMakeFiles/cmTC_ddff1.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ddff1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ddff1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ddff1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddff1.dir/link.txt --verbose=1
+/usr/bin/cc  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ddff1.dir/CheckFunctionExists.c.o  -o cmTC_ddff1 -lpthreads 
+/usr/bin/ld: não foi possível localizar -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_ddff1.dir/build.make:87: cmTC_ddff1] Error 1
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ddff1/fast] Error 2
+
+
+Determining if the include file X11/extensions/xf86vmode.h exists failed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_64db8/fast 
+/usr/bin/make -f CMakeFiles/cmTC_64db8.dir/build.make CMakeFiles/cmTC_64db8.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64db8.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes    -o CMakeFiles/cmTC_64db8.dir/CheckIncludeFile.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+In file included from /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:
+/usr/include/X11/extensions/xf86vmode.h:127:5: error: unknown type name ‘Bool’
+     Bool send_event;  /* true if this came from a SendEvent req */
+     ^~~~
+/usr/include/X11/extensions/xf86vmode.h:128:5: error: unknown type name ‘Display’
+     Display *display;  /* Display the event was read from */
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:129:5: error: unknown type name ‘Window’
+     Window root;  /* root window of event screen */
+     ^~~~~~
+/usr/include/X11/extensions/xf86vmode.h:132:5: error: unknown type name ‘Bool’
+     Bool forced;  /* extents of new region */
+     ^~~~
+/usr/include/X11/extensions/xf86vmode.h:133:5: error: unknown type name ‘Time’
+     Time time;   /* event timestamp */
+     ^~~~
+/usr/include/X11/extensions/xf86vmode.h:150:1: error: unknown type name ‘Bool’; did you mean ‘_Bool’?
+ Bool XF86VidModeQueryVersion(
+ ^~~~
+ _Bool
+/usr/include/X11/extensions/xf86vmode.h:151:5: error: unknown type name ‘Display’
+     Display*  /* dpy */,
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:156:1: error: unknown type name ‘Bool’; did you mean ‘_Bool’?
+ Bool XF86VidModeQueryExtension(
+ ^~~~
+ _Bool
+/usr/include/X11/extensions/xf86vmode.h:157:5: error: unknown type name ‘Display’
+     Display*  /* dpy */,
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:162:1: error: unknown type name ‘Bool’; did you mean ‘_Bool’?
+ Bool XF86VidModeSetClientVersion(
+ ^~~~
+ _Bool
+/usr/include/X11/extensions/xf86vmode.h:163:5: error: unknown type name ‘Display’
+     Display*  /* dpy */
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:166:1: error: unknown type name ‘Bool’; did you mean ‘_Bool’?
+ Bool XF86VidModeGetModeLine(
+ ^~~~
+ _Bool
+/usr/include/X11/extensions/xf86vmode.h:167:5: error: unknown type name ‘Display’
+     Display*   /* dpy */,
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:173:1: error: unknown type name ‘Bool’; did you mean ‘_Bool’?
+ Bool XF86VidModeGetAllModeLines(
+ ^~~~
+ _Bool
+/usr/include/X11/extensions/xf86vmode.h:174:5: error: unknown type name ‘Display’
+     Display*   /* dpy */,
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:180:1: error: unknown type name ‘Bool’; did you mean ‘_Bool’?
+ Bool XF86VidModeAddModeLine(
+ ^~~~
+ _Bool
+/usr/include/X11/extensions/xf86vmode.h:181:5: error: unknown type name ‘Display’
+     Display*   /* dpy */,
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:187:1: error: unknown type name ‘Bool’; did you mean ‘_Bool’?
+ Bool XF86VidModeDeleteModeLine(
+ ^~~~
+ _Bool
+/usr/include/X11/extensions/xf86vmode.h:188:5: error: unknown type name ‘Display’
+     Display*   /* dpy */,
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:193:1: error: unknown type name ‘Bool’; did you mean ‘_Bool’?
+ Bool XF86VidModeModModeLine(
+ ^~~~
+ _Bool
+/usr/include/X11/extensions/xf86vmode.h:194:5: error: unknown type name ‘Display’
+     Display*   /* dpy */,
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:199:1: error: unknown type name ‘Status’
+ Status XF86VidModeValidateModeLine(
+ ^~~~~~
+/usr/include/X11/extensions/xf86vmode.h:200:5: error: unknown type name ‘Display’
+     Display*   /* dpy */,
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:205:1: error: unknown type name ‘Bool’; did you mean ‘_Bool’?
+ Bool XF86VidModeSwitchMode(
+ ^~~~
+ _Bool
+/usr/include/X11/extensions/xf86vmode.h:206:5: error: unknown type name ‘Display’
+     Display*  /* dpy */,
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:211:1: error: unknown type name ‘Bool’; did you mean ‘_Bool’?
+ Bool XF86VidModeSwitchToMode(
+ ^~~~
+ _Bool
+/usr/include/X11/extensions/xf86vmode.h:212:5: error: unknown type name ‘Display’
+     Display*   /* dpy */,
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:217:1: error: unknown type name ‘Bool’; did you mean ‘_Bool’?
+ Bool XF86VidModeLockModeSwitch(
+ ^~~~
+ _Bool
+/usr/include/X11/extensions/xf86vmode.h:218:5: error: unknown type name ‘Display’
+     Display*  /* dpy */,
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:223:1: error: unknown type name ‘Bool’; did you mean ‘_Bool’?
+ Bool XF86VidModeGetMonitor(
+ ^~~~
+ _Bool
+/usr/include/X11/extensions/xf86vmode.h:224:5: error: unknown type name ‘Display’
+     Display*  /* dpy */,
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:229:1: error: unknown type name ‘Bool’; did you mean ‘_Bool’?
+ Bool XF86VidModeGetViewPort(
+ ^~~~
+ _Bool
+/usr/include/X11/extensions/xf86vmode.h:230:5: error: unknown type name ‘Display’
+     Display*  /* dpy */,
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:236:1: error: unknown type name ‘Bool’; did you mean ‘_Bool’?
+ Bool XF86VidModeSetViewPort(
+ ^~~~
+ _Bool
+/usr/include/X11/extensions/xf86vmode.h:237:5: error: unknown type name ‘Display’
+     Display*  /* dpy */,
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:243:1: error: unknown type name ‘Bool’; did you mean ‘_Bool’?
+ Bool XF86VidModeGetDotClocks(
+ ^~~~
+ _Bool
+/usr/include/X11/extensions/xf86vmode.h:244:5: error: unknown type name ‘Display’
+     Display*  /* dpy */,
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:252:1: error: unknown type name ‘Bool’; did you mean ‘_Bool’?
+ Bool XF86VidModeGetGamma(
+ ^~~~
+ _Bool
+/usr/include/X11/extensions/xf86vmode.h:253:5: error: unknown type name ‘Display’
+     Display*   /* dpy */,
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:258:1: error: unknown type name ‘Bool’; did you mean ‘_Bool’?
+ Bool XF86VidModeSetGamma(
+ ^~~~
+ _Bool
+/usr/include/X11/extensions/xf86vmode.h:259:5: error: unknown type name ‘Display’
+     Display*   /* dpy */,
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:264:1: error: unknown type name ‘Bool’; did you mean ‘_Bool’?
+ Bool XF86VidModeSetGammaRamp(
+ ^~~~
+ _Bool
+/usr/include/X11/extensions/xf86vmode.h:265:5: error: unknown type name ‘Display’
+     Display*                    /* dpy */,
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:273:1: error: unknown type name ‘Bool’; did you mean ‘_Bool’?
+ Bool XF86VidModeGetGammaRamp(
+ ^~~~
+ _Bool
+/usr/include/X11/extensions/xf86vmode.h:274:5: error: unknown type name ‘Display’
+     Display*                    /* dpy */,
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:282:1: error: unknown type name ‘Bool’; did you mean ‘_Bool’?
+ Bool XF86VidModeGetGammaRampSize(
+ ^~~~
+ _Bool
+/usr/include/X11/extensions/xf86vmode.h:283:5: error: unknown type name ‘Display’
+     Display*                    /* dpy */,
+     ^~~~~~~
+/usr/include/X11/extensions/xf86vmode.h:288:1: error: unknown type name ‘Bool’; did you mean ‘_Bool’?
+ Bool XF86VidModeGetPermissions(
+ ^~~~
+ _Bool
+/usr/include/X11/extensions/xf86vmode.h:289:5: error: unknown type name ‘Display’
+     Display*                    /* dpy */,
+     ^~~~~~~
+make[1]: *** [CMakeFiles/cmTC_64db8.dir/build.make:66: CMakeFiles/cmTC_64db8.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_64db8/fast] Error 2
+
+
+Performing C SOURCE FILE Test ALLEGRO_HAVE_PROCFS_ARGCV failed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_df6e3/fast 
+/usr/bin/make -f CMakeFiles/cmTC_df6e3.dir/build.make CMakeFiles/cmTC_df6e3.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df6e3.dir/src.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DALLEGRO_HAVE_PROCFS_ARGCV   -o CMakeFiles/cmTC_df6e3.dir/src.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:4:25: error: storage size of ‘psinfo’ isn’t known
+         struct prpsinfo psinfo;
+                         ^~~~~~
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:4:25: warning: unused variable ‘psinfo’ [-Wunused-variable]
+make[1]: *** [CMakeFiles/cmTC_df6e3.dir/build.make:66: CMakeFiles/cmTC_df6e3.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_df6e3/fast] Error 2
+
+Source file was:
+
+    #include <sys/procfs.h>
+    int main(void) {
+        struct prpsinfo psinfo;
+        psinfo.pr_argc = 0;
+        return 0;
+    }
+Performing C SOURCE FILE Test ALLEGRO_HAVE_SV_PROCFS_H failed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c0ab8/fast 
+/usr/bin/make -f CMakeFiles/cmTC_c0ab8.dir/build.make CMakeFiles/cmTC_c0ab8.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0ab8.dir/src.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DALLEGRO_HAVE_SV_PROCFS_H   -o CMakeFiles/cmTC_c0ab8.dir/src.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:5:25: error: storage size of ‘psinfo’ isn’t known
+         struct prpsinfo psinfo;
+                         ^~~~~~
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:6:18: error: ‘PIOCPSINFO’ undeclared (first use in this function); did you mean ‘TIOCLINUX’?
+         ioctl(0, PIOCPSINFO, &psinfo);
+                  ^~~~~~~~~~
+                  TIOCLINUX
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:6:18: note: each undeclared identifier is reported only once for each function it appears in
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:5:25: warning: unused variable ‘psinfo’ [-Wunused-variable]
+         struct prpsinfo psinfo;
+                         ^~~~~~
+make[1]: *** [CMakeFiles/cmTC_c0ab8.dir/build.make:66: CMakeFiles/cmTC_c0ab8.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_c0ab8/fast] Error 2
+
+Source file was:
+
+    #include <sys/procfs.h>
+    #include <sys/ioctl.h>
+    int main(void) {
+        struct prpsinfo psinfo;
+        ioctl(0, PIOCPSINFO, &psinfo);
+        return 0;
+    }
+Performing C SOURCE FILE Test ALLEGRO_HAVE_PROCFS_ARGCV failed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_25eef/fast 
+/usr/bin/make -f CMakeFiles/cmTC_25eef.dir/build.make CMakeFiles/cmTC_25eef.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25eef.dir/src.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DALLEGRO_HAVE_PROCFS_ARGCV   -o CMakeFiles/cmTC_25eef.dir/src.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:4:25: error: storage size of ‘psinfo’ isn’t known
+         struct prpsinfo psinfo;
+                         ^~~~~~
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:4:25: warning: unused variable ‘psinfo’ [-Wunused-variable]
+make[1]: *** [CMakeFiles/cmTC_25eef.dir/build.make:66: CMakeFiles/cmTC_25eef.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_25eef/fast] Error 2
+
+Source file was:
+
+    #include <sys/procfs.h>
+    int main(void) {
+        struct prpsinfo psinfo;
+        psinfo.pr_argc = 0;
+        return 0;
+    }
+Performing C SOURCE FILE Test ALLEGRO_HAVE_SV_PROCFS_H failed with the following output:
+Change Dir: /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9a7ba/fast 
+/usr/bin/make -f CMakeFiles/cmTC_9a7ba.dir/build.make CMakeFiles/cmTC_9a7ba.dir/build
+make[1]: Entering directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a7ba.dir/src.c.o
+/usr/bin/cc   -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -DALLEGRO_HAVE_SV_PROCFS_H   -o CMakeFiles/cmTC_9a7ba.dir/src.c.o   -c /home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:5:25: error: storage size of ‘psinfo’ isn’t known
+         struct prpsinfo psinfo;
+                         ^~~~~~
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:6:18: error: ‘PIOCPSINFO’ undeclared (first use in this function); did you mean ‘TIOCLINUX’?
+         ioctl(0, PIOCPSINFO, &psinfo);
+                  ^~~~~~~~~~
+                  TIOCLINUX
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:6:18: note: each undeclared identifier is reported only once for each function it appears in
+/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp/src.c:5:25: warning: unused variable ‘psinfo’ [-Wunused-variable]
+         struct prpsinfo psinfo;
+                         ^~~~~~
+make[1]: *** [CMakeFiles/cmTC_9a7ba.dir/build.make:66: CMakeFiles/cmTC_9a7ba.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/adalbs/Documentos/allegro5/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_9a7ba/fast] Error 2
+
+Source file was:
+
+    #include <sys/procfs.h>
+    #include <sys/ioctl.h>
+    int main(void) {
+        struct prpsinfo psinfo;
+        ioctl(0, PIOCPSINFO, &psinfo);
+        return 0;
+    }

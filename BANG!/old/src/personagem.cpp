@@ -1,7 +1,7 @@
 #include "personagem.h"
 
 // CONSTRUTOR E DESTRUTOR
-Persongem::Persongem(int vida, std::string imagem, std::string nome, std::string descricao) {
+Personagem::Personagem(int vida, std::string imagem, std::string nome, std::string descricao) {
   this->vida = vida;
   this->imagem = imagem;
   this->nome = nome;
