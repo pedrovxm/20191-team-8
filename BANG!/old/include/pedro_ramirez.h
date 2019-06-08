@@ -7,6 +7,7 @@
 
 class PedroRamirez : public Personagem {
   public:
+    PedroRamirez(int vida, std::string imagem) : Personagem(vida, imagem, "Pedro Ramirez", "Texto descritivo do personagem"){};
     void efeito() override;
 };
 #endif

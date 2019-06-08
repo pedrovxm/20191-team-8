@@ -1,7 +1,7 @@
-#include "pedro_ramirez.h"
+#include "bart_cassidy.h"
 
 // PedroRamirez::PedroRamirez(int vida, std::string imagem){};
 
-void PedroRamirez::efeito() {
+void BartCassidy::efeito() {
   throw "Not implemented yet";
 }

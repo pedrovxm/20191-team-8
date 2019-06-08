@@ -1,12 +1,5 @@
 #include "personagem.h"
 
-// CONSTRUTOR E DESTRUTOR
-Personagem::Personagem(int vida, std::string imagem, std::string nome, std::string descricao) {
-  this->vida = vida;
-  this->imagem = imagem;
-  this->nome = nome;
-  this->descricao = descricao;
-}
 // GETTERS
 int Personagem::get_vida() {
   return this->vida;
