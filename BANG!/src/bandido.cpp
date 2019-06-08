@@ -6,7 +6,7 @@
 #include "xerife.h"
 
 Bandido::Bandido():
-    Papel("Bandido", "Matar o xerife", "COLOCAR LINK IMAGEM", false, 0) {}
+    Papel("Bandido", "Matar o xerife", "../assets/img/foradalei.png", false, 0) {}
 
 bool Bandido::check_win(std::vector<Papel*> papeis) {
 

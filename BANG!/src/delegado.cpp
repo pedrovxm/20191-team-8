@@ -7,7 +7,7 @@
 #include "renegado.h"
 
 Delegado::Delegado():
-    Papel("Delegado", "Proteger o xerife", "COLOCAR LINK IMAGEM", false, 0) {}
+    Papel("Delegado", "Proteger o xerife", "../assets/img/vicexerife.png", false, 0) {}
 
 bool Delegado::check_win(std::vector<Papel*> papeis) {
     Papel* papel_compara;

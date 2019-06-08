@@ -7,7 +7,7 @@
 #include "renegado.h"
 
 Xerife::Xerife():
-    Papel("Xerife", "Matar todos os bandidos e o renegado", "COLOCAR LINK IMAGEM", true, 1) {}
+    Papel("Xerife", "Matar todos os bandidos e o renegado", "../assets/img/xerife.png", true, 1) {}
 
 bool Xerife::check_win(std::vector<Papel*> papeis) {
 
