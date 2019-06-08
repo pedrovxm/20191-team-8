@@ -22,7 +22,7 @@ Dealer::~Dealer() {
 void Dealer::initial_screen_config() {
 
 	al_init();
-	//al_set_new_display_flags(ALLEGRO_FULLSCREEN);
+	al_set_new_display_flags(ALLEGRO_FULLSCREEN);
 
 	this->display = al_create_display(ScreenWidth, ScreenHeight);
 	this->queue = al_create_event_queue();
