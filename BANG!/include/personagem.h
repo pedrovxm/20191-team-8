@@ -1,15 +1,17 @@
 #ifndef TP_PERSONAGEM_H
 #define TP_PERSONAGEM_H
-
 #include <string>
-#include <iostream>
 
 class Personagem {
   public:
-    Personagem(int vida, std::string imagem, std::string nome, std::string descricao);
-    ~Personagem();
-    virtual void efeito();
-  protected:
+    explicit Personagem(int vida, std::string imagem, std::string nome, std::string descricao) {
+      this->vida = vida;
+      this->imagem = imagem;
+      this->nome = nome;
+      this->descricao = descricao;
+    };
+    ~Personagem(){};
+    virtual void efeito()=0;
     int get_vida();
     std::string get_imagem();
     std::string get_nome();

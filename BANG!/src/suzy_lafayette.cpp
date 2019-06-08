@@ -1,5 +1,5 @@
 #include "suzy_lafayette.h"
 
-void SuzyLafayette::efeito() {
+void SuzyLafayette::efeito(Jogador *jogador) {
   throw "Not implemented yet";
 }

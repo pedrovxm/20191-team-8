@@ -1,5 +1,5 @@
 #include "rose_doolan.h"
 
-void RoseDoolan::efeito() {
+void RoseDoolan::efeito(Jogador *jogador) {
   throw "Not implemented yet";
 }

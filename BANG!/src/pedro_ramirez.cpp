@@ -1,5 +1,5 @@
 #include "pedro_ramirez.h"
 
-void RoseDoolan::efeito() {
+void PedroRamirez::efeito(Jogador *jogador) {
   throw "Not implemented yet";
 }
