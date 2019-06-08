@@ -9,6 +9,7 @@
 #include <allegro5/allegro_native_dialog.h>
 #include <allegro5/allegro_ttf.h>
 #include <allegro5/allegro_font.h>
+
 class Dealer {
 	private:
 		int aux = 0;
@@ -24,6 +25,9 @@ class Dealer {
 		bool game_cards = false;
 		bool game = false;
 		bool pause_bool = false;
+		bool player_sel = false;
+		bool card_sel = false;
+		bool turnos_sel = false;
 
 		//display
 		ALLEGRO_DISPLAY* display;
@@ -71,12 +75,31 @@ class Dealer {
 		ALLEGRO_BITMAP* mustang = NULL;
 		//pause//
 		ALLEGRO_BITMAP* pause = NULL;
+		//frames//
+		ALLEGRO_BITMAP* frame_q = NULL;
+		ALLEGRO_BITMAP* frame_w = NULL;
+		ALLEGRO_BITMAP* frame_e = NULL;
+		ALLEGRO_BITMAP* frame_r = NULL;
+		ALLEGRO_BITMAP* frame_t = NULL;
+		ALLEGRO_BITMAP* frame_y = NULL;
+		ALLEGRO_BITMAP* frame_u = NULL;
+		ALLEGRO_BITMAP* frame_i = NULL;
+		ALLEGRO_BITMAP* frame_o = NULL;
+		ALLEGRO_BITMAP* frame_p = NULL;
+		ALLEGRO_BITMAP* frame_1 = NULL;
+		ALLEGRO_BITMAP* frame_2 = NULL;
+		ALLEGRO_BITMAP* frame_3 = NULL;
+		ALLEGRO_BITMAP* frame_4 = NULL;
+		ALLEGRO_BITMAP* frame_5 = NULL;
+		ALLEGRO_BITMAP* frame_6 = NULL;
+		ALLEGRO_BITMAP* frame_7 = NULL;
 
 		//music
-		ALLEGRO_SAMPLE* intro = al_load_sample("../assets/music/intro.ogg");
+		ALLEGRO_SAMPLE* intro = al_load_sample("intro.ogg");
 
 	public:
 		Dealer();
+
 		~Dealer();
 		void start();
 		void end();
@@ -84,3 +107,6 @@ class Dealer {
 		void start_menu();
 };
 #endif // !DEALER_TP_H
+
+
+
