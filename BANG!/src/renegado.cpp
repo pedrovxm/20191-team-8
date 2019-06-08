@@ -5,7 +5,7 @@
 #include "renegado.h"
 
 Renegado::Renegado():
-    Papel("Renegado", "Ser o último jogador no jogo", "../assets/img/renegado.png", false, 0) {}
+    Papel("Renegado", "Ser o último jogador no jogo", "COLOCAR LINK IMAGEM", false, 0) {}
 
 
 bool Renegado::check_win(std::vector<Papel*> papeis) {

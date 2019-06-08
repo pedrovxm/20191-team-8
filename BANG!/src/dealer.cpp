@@ -42,66 +42,66 @@ void Dealer::initial_screen_config() {
 	//BITMAPS//
 
 	//background//
-	this->background = al_load_bitmap("menu1.png");
+	this->background = al_load_bitmap("../assets/img/menu1.png");
 	//personagens//
-	this->personagem_1 = al_load_bitmap("bitmap_initial.png");
-	this->personagem_2 = al_load_bitmap("bitmap_initial.png");
-	this->personagem_3 = al_load_bitmap("bitmap_initial.png");
-	this->personagem_4 = al_load_bitmap("bitmap_initial.png");
-	this->personagem_5 = al_load_bitmap("bitmap_initial.png");
-	this->personagem_6 = al_load_bitmap("bitmap_initial.png");
-	this->personagem_7 = al_load_bitmap("bitmap_initial.png");
+	this->personagem_1 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->personagem_2 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->personagem_3 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->personagem_4 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->personagem_5 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->personagem_6 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->personagem_7 = al_load_bitmap("../assets/img/bitmap_initial.png");
 	//cartas//
-	this->carta_1 = al_load_bitmap("bitmap_initial.png");
-	this->carta_2 = al_load_bitmap("bitmap_initial.png");
-	this->carta_3 = al_load_bitmap("bitmap_initial.png");
-	this->carta_4 = al_load_bitmap("bitmap_initial.png");
-	this->carta_5 = al_load_bitmap("bitmap_initial.png");
-	this->carta_6 = al_load_bitmap("bitmap_initial.png");
-	this->carta_7 = al_load_bitmap("bitmap_initial.png");
-	this->carta_8 = al_load_bitmap("bitmap_initial.png");
-	this->carta_9 = al_load_bitmap("bitmap_initial.png");
-	this->carta_10 = al_load_bitmap("bitmap_initial.png");
+	this->carta_1 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->carta_2 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->carta_3 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->carta_4 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->carta_5 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->carta_6 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->carta_7 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->carta_8 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->carta_9 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->carta_10 = al_load_bitmap("../assets/img/bitmap_initial.png");
 	//equips//
-	this->equip_1 = al_load_bitmap("bitmap_initial.png");
-	this->equip_2 = al_load_bitmap("bitmap_initial.png");
-	this->equip_3 = al_load_bitmap("bitmap_initial.png");
+	this->equip_1 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->equip_2 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->equip_3 = al_load_bitmap("../assets/img/bitmap_initial.png");
 	//vida//
-	this->vida = al_load_bitmap("bitmap_initial.png");
+	this->vida = al_load_bitmap("../assets/img/bitmap_initial.png");
 	//bang!//
-	this->bang_press = al_load_bitmap("bitmap_initial.png");
+	this->bang_press = al_load_bitmap("../assets/img/bitmap_initial.png");
 	//passa turnos//
-	this->turnos = al_load_bitmap("bitmap_initial.png");
+	this->turnos = al_load_bitmap("../assets/img/bitmap_initial.png");
 	//prisao//
-	this->prisao = al_load_bitmap("bitmap_initial.png");
+	this->prisao = al_load_bitmap("../assets/img/bitmap_initial.png");
 	//dinamite//
-	this->dinamite = al_load_bitmap("bitmap_initial.png");
+	this->dinamite = al_load_bitmap("../assets/img/bitmap_initial.png");
 	//mira//
-	this->mira = al_load_bitmap("bitmap_initial.png");
+	this->mira = al_load_bitmap("../assets/img/bitmap_initial.png");
 	//mustang//
-	this->mustang = al_load_bitmap("bitmap_initial.png");
+	this->mustang = al_load_bitmap("../assets/img/bitmap_initial.png");
 	//pause//
-	this->pause = al_load_bitmap("bitmap_initial.png");
+	this->pause = al_load_bitmap("../assets/img/bitmap_initial.png");
 	//frames//
-	this->frame_q = al_load_bitmap("bitmap_initial.png");
-	this->frame_w = al_load_bitmap("bitmap_initial.png");
-	this->frame_e = al_load_bitmap("bitmap_initial.png");
-	this->frame_r = al_load_bitmap("bitmap_initial.png");
-	this->frame_t = al_load_bitmap("bitmap_initial.png");
-	this->frame_y = al_load_bitmap("bitmap_initial.png");
-	this->frame_u = al_load_bitmap("bitmap_initial.png");
-	this->frame_i = al_load_bitmap("bitmap_initial.png");
-	this->frame_o = al_load_bitmap("bitmap_initial.png");
-	this->frame_p = al_load_bitmap("bitmap_initial.png");
-	this->frame_1 = al_load_bitmap("bitmap_initial.png");
-	this->frame_2 = al_load_bitmap("bitmap_initial.png");
-	this->frame_3 = al_load_bitmap("bitmap_initial.png");
-	this->frame_4 = al_load_bitmap("bitmap_initial.png");
-	this->frame_5 = al_load_bitmap("bitmap_initial.png");
-	this->frame_6 = al_load_bitmap("bitmap_initial.png");
-	this->frame_7 = al_load_bitmap("bitmap_initial.png");
+	this->frame_q = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->frame_w = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->frame_e = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->frame_r = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->frame_t = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->frame_y = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->frame_u = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->frame_i = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->frame_o = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->frame_p = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->frame_1 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->frame_2 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->frame_3 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->frame_4 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->frame_5 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->frame_6 = al_load_bitmap("../assets/img/bitmap_initial.png");
+	this->frame_7 = al_load_bitmap("../assets/img/bitmap_initial.png");
 
-	
+
 
 	assert(this->background != NULL);
 	al_set_window_title(this->display, "BANG!");
@@ -112,16 +112,16 @@ void Dealer::start_menu() {
 	ALLEGRO_EVENT event;
 	al_wait_for_event(this->queue, &event);
 
-	//MENU INICIAL// 
+	//MENU INICIAL//
 	if (event.type == ALLEGRO_EVENT_KEY_UP && this->menu == true) {
 		if (event.keyboard.keycode == ALLEGRO_KEY_ESCAPE)
 			this->running = false;
 		else if (event.keyboard.keycode == ALLEGRO_KEY_DOWN && this->menu == true) {
-			this->background = al_load_bitmap("menu2.png");
+			this->background = al_load_bitmap("../assets/img/menu2.png");
 			this->aux = 1;
 		}
 		else if (event.keyboard.keycode == ALLEGRO_KEY_UP && this->menu == true) {
-			this->background = al_load_bitmap("menu1.png");
+			this->background = al_load_bitmap("../assets/img/menu1.png");
 			this->aux = 0;
 		}
 		else if (this->aux == 1) {
@@ -133,22 +133,22 @@ void Dealer::start_menu() {
 			if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_SPACE) {
 				this->menu = false;
 				this->players_menu = true;
-				this->background = al_load_bitmap("players4.png");
+				this->background = al_load_bitmap("../assets/img/players4.png");
 			}
 		}
 
 	}
 
-	//ESCOLHA DO NUMERO DE JOGADORES// 
+	//ESCOLHA DO NUMERO DE JOGADORES//
 	if (event.type == ALLEGRO_EVENT_KEY_UP && this->players_menu == true) {
 		switch (this->players) {
 		case 4:
 			if (event.keyboard.keycode == ALLEGRO_KEY_UP) {
-				this->background = al_load_bitmap("players5.png");
+				this->background = al_load_bitmap("../assets/img/players5.png");
 				this->players = 5;
 			}
 			if (event.keyboard.keycode == ALLEGRO_KEY_ESCAPE) {
-				this->background = al_load_bitmap("menu1.png");
+				this->background = al_load_bitmap("../assets/img/menu1.png");
 				this->players_menu = false;
 				this->menu = true;
 			}
@@ -156,20 +156,20 @@ void Dealer::start_menu() {
 			{
 				players_menu = false;
 				game_cards = true;
-				this->background = al_load_bitmap("tabuleiro.png");
+				this->background = al_load_bitmap("../assets/img/tabuleiro.png");
 			}
 			break;
 		case 5:
 			if (event.keyboard.keycode == ALLEGRO_KEY_UP) {
-				this->background = al_load_bitmap("players6.png");
+				this->background = al_load_bitmap("../assets/img/players6.png");
 				this->players = 6;
 			}
 			if (event.keyboard.keycode == ALLEGRO_KEY_DOWN) {
-				this->background = al_load_bitmap("players4.png");
+				this->background = al_load_bitmap("../assets/img/players4.png");
 				this->players = 4;
 			}
 			if (event.keyboard.keycode == ALLEGRO_KEY_ESCAPE) {
-				this->background = al_load_bitmap("menu1.png");
+				this->background = al_load_bitmap("../assets/img/menu1.png");
 				this->players_menu = false;
 				this->menu = true;
 			}
@@ -177,20 +177,20 @@ void Dealer::start_menu() {
 			{
 				players_menu = false;
 				game_cards = true;
-				this->background = al_load_bitmap("tabuleiro.png");
+				this->background = al_load_bitmap("../assets/img/tabuleiro.png");
 			}
 			break;
 		case 6:
 			if (event.keyboard.keycode == ALLEGRO_KEY_UP) {
-				this->background = al_load_bitmap("players7.png");
+				this->background = al_load_bitmap("../assets/img/players7.png");
 				this->players = 7;
 			}
 			if (event.keyboard.keycode == ALLEGRO_KEY_DOWN) {
-				this->background = al_load_bitmap("players5.png");
+				this->background = al_load_bitmap("../assets/img/players5.png");
 				this->players = 5;
 			}
 			if (event.keyboard.keycode == ALLEGRO_KEY_ESCAPE) {
-				this->background = al_load_bitmap("menu1.png");
+				this->background = al_load_bitmap("../assets/img/menu1.png");
 				this->players_menu = false;
 				this->menu = true;
 			}
@@ -198,16 +198,16 @@ void Dealer::start_menu() {
 			{
 				players_menu = false;
 				game_cards = true;
-				this->background = al_load_bitmap("tabuleiro.png");
+				this->background = al_load_bitmap("../assets/img/tabuleiro.png");
 			}
 			break;
 		case 7:
 			if (event.keyboard.keycode == ALLEGRO_KEY_DOWN) {
-				this->background = al_load_bitmap("players6.png");
+				this->background = al_load_bitmap("../assets/img/players6.png");
 				this->players = 6;
 			}
 			if (event.keyboard.keycode == ALLEGRO_KEY_ESCAPE) {
-				this->background = al_load_bitmap("menu1.png");
+				this->background = al_load_bitmap("../assets/img/menu1.png");
 				this->players_menu = false;
 				this->menu = true;
 			}
@@ -216,55 +216,55 @@ void Dealer::start_menu() {
 				players_menu = false;
 				game_cards = true;
 
-				this->background = al_load_bitmap("tabuleiro.png");
+				this->background = al_load_bitmap("../assets/img/tabuleiro.png");
 			}
 			break;
 		}
 	}
 
-	//TABULEIRO DO GAME// 
+	//TABULEIRO DO GAME//
 	if (this->game_cards == true)
 	{
 		//personagens//
-		this->personagem_1 = al_load_bitmap("BART_CASSIDY.png");
-		this->personagem_2 = al_load_bitmap("BART_CASSIDY.png");
-		this->personagem_3 = al_load_bitmap("BART_CASSIDY.png");
-		this->personagem_4 = al_load_bitmap("BART_CASSIDY.png");
+		this->personagem_1 = al_load_bitmap("../assets/img/BART_CASSIDY.png");
+		this->personagem_2 = al_load_bitmap("../assets/img/BART_CASSIDY.png");
+		this->personagem_3 = al_load_bitmap("../assets/img/BART_CASSIDY.png");
+		this->personagem_4 = al_load_bitmap("../assets/img/BART_CASSIDY.png");
 		if (players > 4)
-			this->personagem_5 = al_load_bitmap("BART_CASSIDY.png");
+			this->personagem_5 = al_load_bitmap("../assets/img/BART_CASSIDY.png");
 		if (players > 5)
-			this->personagem_6 = al_load_bitmap("BART_CASSIDY.png");
+			this->personagem_6 = al_load_bitmap("../assets/img/BART_CASSIDY.png");
 		if (players > 6)
-			this->personagem_7 = al_load_bitmap("BART_CASSIDY.png");
+			this->personagem_7 = al_load_bitmap("../assets/img/BART_CASSIDY.png");
 		//cartas//
-		this->carta_1 = al_load_bitmap("BANG!.png");
-		this->carta_2 = al_load_bitmap("BANG!.png");
-		this->carta_3 = al_load_bitmap("BANG!.png");
-		this->carta_4 = al_load_bitmap("BANG!.png");
-		this->carta_5 = al_load_bitmap("BANG!.png");
-		this->carta_6 = al_load_bitmap("BANG!.png");
-		this->carta_7 = al_load_bitmap("BANG!.png");
-		this->carta_8 = al_load_bitmap("BANG!.png");
-		this->carta_9 = al_load_bitmap("BANG!.png");
-		this->carta_10 = al_load_bitmap("BANG!.png");
+		this->carta_1 = al_load_bitmap("../assets/img/BANG!.png");
+		this->carta_2 = al_load_bitmap("../assets/img/BANG!.png");
+		this->carta_3 = al_load_bitmap("../assets/img/BANG!.png");
+		this->carta_4 = al_load_bitmap("../assets/img/BANG!.png");
+		this->carta_5 = al_load_bitmap("../assets/img/BANG!.png");
+		this->carta_6 = al_load_bitmap("../assets/img/BANG!.png");
+		this->carta_7 = al_load_bitmap("../assets/img/BANG!.png");
+		this->carta_8 = al_load_bitmap("../assets/img/BANG!.png");
+		this->carta_9 = al_load_bitmap("../assets/img/BANG!.png");
+		this->carta_10 = al_load_bitmap("../assets/img/BANG!.png");
 		//equips//
-		this->equip_1 = al_load_bitmap("BANG!.png");
-		this->equip_2 = al_load_bitmap("BANG!.png");
-		this->equip_3 = al_load_bitmap("BANG!.png");
+		this->equip_1 = al_load_bitmap("../assets/img/BANG!.png");
+		this->equip_2 = al_load_bitmap("../assets/img/BANG!.png");
+		this->equip_3 = al_load_bitmap("../assets/img/BANG!.png");
 		//vida//
-		this->vida = al_load_bitmap("4vidas.png");
+		this->vida = al_load_bitmap("../assets/img/4vidas.png");
 		//bang!//
-		this->bang_press = al_load_bitmap("bang2.png");
+		this->bang_press = al_load_bitmap("../assets/img/bang2.png");
 		//botão turnos//
-		this->turnos = al_load_bitmap("passaturno.png");
+		this->turnos = al_load_bitmap("../assets/img/passaturno.png");
 		//prisao//
-		this->prisao = al_load_bitmap("cadeado_02.png");
+		this->prisao = al_load_bitmap("../assets/img/cadeado_02.png");
 		//dinamite//
-		this->dinamite = al_load_bitmap("dinamite_02.png");
+		this->dinamite = al_load_bitmap("../assets/img/dinamite_02.png");
 		//mira//
-		this->mira = al_load_bitmap("mira_02.png");
+		this->mira = al_load_bitmap("../assets/img/mira_02.png");
 		//mustang//
-		this->mustang = al_load_bitmap("cavalo_02.png");
+		this->mustang = al_load_bitmap("../assets/img/cavalo_02.png");
 
 		this->game_cards = false;
 		game = true;
@@ -277,24 +277,24 @@ void Dealer::start_menu() {
 		//CARTA 1
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_Q)
 		{
-			this->frame_q = al_load_bitmap("frame_cartas.png");
-			this->frame_w = al_load_bitmap("bitmap_initial.png");
-			this->frame_e = al_load_bitmap("bitmap_initial.png");
-			this->frame_r = al_load_bitmap("bitmap_initial.png");
-			this->frame_t = al_load_bitmap("bitmap_initial.png");
-			this->frame_y = al_load_bitmap("bitmap_initial.png");
-			this->frame_u = al_load_bitmap("bitmap_initial.png");
-			this->frame_i = al_load_bitmap("bitmap_initial.png");
-			this->frame_o = al_load_bitmap("bitmap_initial.png");
-			this->frame_p = al_load_bitmap("bitmap_initial.png");
-			this->frame_1 = al_load_bitmap("bitmap_initial.png");
-			this->frame_2 = al_load_bitmap("bitmap_initial.png");
-			this->frame_3 = al_load_bitmap("bitmap_initial.png");
-			this->frame_4 = al_load_bitmap("bitmap_initial.png");
-			this->frame_5 = al_load_bitmap("bitmap_initial.png");
-			this->frame_6 = al_load_bitmap("bitmap_initial.png");
-			this->frame_7 = al_load_bitmap("bitmap_initial.png");
-			this->turnos = al_load_bitmap("passaturno.png");
+			this->frame_q = al_load_bitmap("../assets/img/frame_cartas.png");
+			this->frame_w = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_e = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_r = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_t = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_y = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_u = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_i = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_o = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_p = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_1 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_2 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_3 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_4 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_5 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_6 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_7 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->turnos = al_load_bitmap("../assets/img/passaturno.png");
 
 			player_sel = false;
 			card_sel = true;
@@ -306,24 +306,24 @@ void Dealer::start_menu() {
 		//CARTA 2
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_W)
 		{
-			this->frame_q = al_load_bitmap("bitmap_initial.png");
-			this->frame_w = al_load_bitmap("frame_cartas.png");
-			this->frame_e = al_load_bitmap("bitmap_initial.png");
-			this->frame_r = al_load_bitmap("bitmap_initial.png");
-			this->frame_t = al_load_bitmap("bitmap_initial.png");
-			this->frame_y = al_load_bitmap("bitmap_initial.png");
-			this->frame_u = al_load_bitmap("bitmap_initial.png");
-			this->frame_i = al_load_bitmap("bitmap_initial.png");
-			this->frame_o = al_load_bitmap("bitmap_initial.png");
-			this->frame_p = al_load_bitmap("bitmap_initial.png");
-			this->frame_1 = al_load_bitmap("bitmap_initial.png");
-			this->frame_2 = al_load_bitmap("bitmap_initial.png");
-			this->frame_3 = al_load_bitmap("bitmap_initial.png");
-			this->frame_4 = al_load_bitmap("bitmap_initial.png");
-			this->frame_5 = al_load_bitmap("bitmap_initial.png");
-			this->frame_6 = al_load_bitmap("bitmap_initial.png");
-			this->frame_7 = al_load_bitmap("bitmap_initial.png");
-			this->turnos = al_load_bitmap("passaturno.png");
+			this->frame_q = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_w = al_load_bitmap("../assets/img/frame_cartas.png");
+			this->frame_e = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_r = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_t = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_y = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_u = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_i = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_o = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_p = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_1 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_2 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_3 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_4 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_5 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_6 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_7 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->turnos = al_load_bitmap("../assets/img/passaturno.png");
 
 			player_sel = false;
 			card_sel = true;
@@ -335,24 +335,24 @@ void Dealer::start_menu() {
 		//CARTA 3
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_E)
 		{
-			this->frame_q = al_load_bitmap("bitmap_initial.png");
-			this->frame_w = al_load_bitmap("bitmap_initial.png");
-			this->frame_e = al_load_bitmap("frame_cartas.png");
-			this->frame_r = al_load_bitmap("bitmap_initial.png");
-			this->frame_t = al_load_bitmap("bitmap_initial.png");
-			this->frame_y = al_load_bitmap("bitmap_initial.png");
-			this->frame_u = al_load_bitmap("bitmap_initial.png");
-			this->frame_i = al_load_bitmap("bitmap_initial.png");
-			this->frame_o = al_load_bitmap("bitmap_initial.png");
-			this->frame_p = al_load_bitmap("bitmap_initial.png");
-			this->frame_1 = al_load_bitmap("bitmap_initial.png");
-			this->frame_2 = al_load_bitmap("bitmap_initial.png");
-			this->frame_3 = al_load_bitmap("bitmap_initial.png");
-			this->frame_4 = al_load_bitmap("bitmap_initial.png");
-			this->frame_5 = al_load_bitmap("bitmap_initial.png");
-			this->frame_6 = al_load_bitmap("bitmap_initial.png");
-			this->frame_7 = al_load_bitmap("bitmap_initial.png");
-			this->turnos = al_load_bitmap("passaturno.png");
+			this->frame_q = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_w = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_e = al_load_bitmap("../assets/img/frame_cartas.png");
+			this->frame_r = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_t = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_y = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_u = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_i = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_o = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_p = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_1 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_2 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_3 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_4 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_5 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_6 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_7 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->turnos = al_load_bitmap("../assets/img/passaturno.png");
 
 			player_sel = false;
 			card_sel = true;
@@ -364,24 +364,24 @@ void Dealer::start_menu() {
 		//CARTA 4
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_R)
 		{
-			this->frame_q = al_load_bitmap("bitmap_initial.png");
-			this->frame_w = al_load_bitmap("bitmap_initial.png");
-			this->frame_e = al_load_bitmap("bitmap_initial.png");
-			this->frame_r = al_load_bitmap("frame_cartas.png");
-			this->frame_t = al_load_bitmap("bitmap_initial.png");
-			this->frame_y = al_load_bitmap("bitmap_initial.png");
-			this->frame_u = al_load_bitmap("bitmap_initial.png");
-			this->frame_i = al_load_bitmap("bitmap_initial.png");
-			this->frame_o = al_load_bitmap("bitmap_initial.png");
-			this->frame_p = al_load_bitmap("bitmap_initial.png");
-			this->frame_1 = al_load_bitmap("bitmap_initial.png");
-			this->frame_2 = al_load_bitmap("bitmap_initial.png");
-			this->frame_3 = al_load_bitmap("bitmap_initial.png");
-			this->frame_4 = al_load_bitmap("bitmap_initial.png");
-			this->frame_5 = al_load_bitmap("bitmap_initial.png");
-			this->frame_6 = al_load_bitmap("bitmap_initial.png");
-			this->frame_7 = al_load_bitmap("bitmap_initial.png");
-			this->turnos = al_load_bitmap("passaturno.png");
+			this->frame_q = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_w = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_e = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_r = al_load_bitmap("../assets/img/frame_cartas.png");
+			this->frame_t = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_y = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_u = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_i = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_o = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_p = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_1 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_2 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_3 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_4 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_5 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_6 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_7 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->turnos = al_load_bitmap("../assets/img/passaturno.png");
 
 			player_sel = false;
 			card_sel = true;
@@ -393,24 +393,24 @@ void Dealer::start_menu() {
 		//CARTA 5
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_T)
 		{
-			this->frame_q = al_load_bitmap("bitmap_initial.png");
-			this->frame_w = al_load_bitmap("bitmap_initial.png");
-			this->frame_e = al_load_bitmap("bitmap_initial.png");
-			this->frame_r = al_load_bitmap("bitmap_initial.png");
-			this->frame_t = al_load_bitmap("frame_cartas.png");
-			this->frame_y = al_load_bitmap("bitmap_initial.png");
-			this->frame_u = al_load_bitmap("bitmap_initial.png");
-			this->frame_i = al_load_bitmap("bitmap_initial.png");
-			this->frame_o = al_load_bitmap("bitmap_initial.png");
-			this->frame_p = al_load_bitmap("bitmap_initial.png");
-			this->frame_1 = al_load_bitmap("bitmap_initial.png");
-			this->frame_2 = al_load_bitmap("bitmap_initial.png");
-			this->frame_3 = al_load_bitmap("bitmap_initial.png");
-			this->frame_4 = al_load_bitmap("bitmap_initial.png");
-			this->frame_5 = al_load_bitmap("bitmap_initial.png");
-			this->frame_6 = al_load_bitmap("bitmap_initial.png");
-			this->frame_7 = al_load_bitmap("bitmap_initial.png");
-			this->turnos = al_load_bitmap("passaturno.png");
+			this->frame_q = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_w = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_e = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_r = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_t = al_load_bitmap("../assets/img/frame_cartas.png");
+			this->frame_y = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_u = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_i = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_o = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_p = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_1 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_2 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_3 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_4 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_5 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_6 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_7 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->turnos = al_load_bitmap("../assets/img/passaturno.png");
 
 			player_sel = false;
 			card_sel = true;
@@ -422,24 +422,24 @@ void Dealer::start_menu() {
 		//CARTA 6
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_Y)
 		{
-			this->frame_q = al_load_bitmap("bitmap_initial.png");
-			this->frame_w = al_load_bitmap("bitmap_initial.png");
-			this->frame_e = al_load_bitmap("bitmap_initial.png");
-			this->frame_r = al_load_bitmap("bitmap_initial.png");
-			this->frame_t = al_load_bitmap("bitmap_initial.png");
-			this->frame_y = al_load_bitmap("frame_cartas.png");
-			this->frame_u = al_load_bitmap("bitmap_initial.png");
-			this->frame_i = al_load_bitmap("bitmap_initial.png");
-			this->frame_o = al_load_bitmap("bitmap_initial.png");
-			this->frame_p = al_load_bitmap("bitmap_initial.png");
-			this->frame_1 = al_load_bitmap("bitmap_initial.png");
-			this->frame_2 = al_load_bitmap("bitmap_initial.png");
-			this->frame_3 = al_load_bitmap("bitmap_initial.png");
-			this->frame_4 = al_load_bitmap("bitmap_initial.png");
-			this->frame_5 = al_load_bitmap("bitmap_initial.png");
-			this->frame_6 = al_load_bitmap("bitmap_initial.png");
-			this->frame_7 = al_load_bitmap("bitmap_initial.png");
-			this->turnos = al_load_bitmap("passaturno.png");
+			this->frame_q = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_w = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_e = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_r = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_t = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_y = al_load_bitmap("../assets/img/frame_cartas.png");
+			this->frame_u = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_i = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_o = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_p = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_1 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_2 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_3 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_4 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_5 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_6 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_7 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->turnos = al_load_bitmap("../assets/img/passaturno.png");
 
 			player_sel = false;
 			card_sel = true;
@@ -451,24 +451,24 @@ void Dealer::start_menu() {
 		//CARTA 7
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_U)
 		{
-			this->frame_q = al_load_bitmap("bitmap_initial.png");
-			this->frame_w = al_load_bitmap("bitmap_initial.png");
-			this->frame_e = al_load_bitmap("bitmap_initial.png");
-			this->frame_r = al_load_bitmap("bitmap_initial.png");
-			this->frame_t = al_load_bitmap("bitmap_initial.png");
-			this->frame_y = al_load_bitmap("bitmap_initial.png");
-			this->frame_u = al_load_bitmap("frame_cartas.png");
-			this->frame_i = al_load_bitmap("bitmap_initial.png");
-			this->frame_o = al_load_bitmap("bitmap_initial.png");
-			this->frame_p = al_load_bitmap("bitmap_initial.png");
-			this->frame_1 = al_load_bitmap("bitmap_initial.png");
-			this->frame_2 = al_load_bitmap("bitmap_initial.png");
-			this->frame_3 = al_load_bitmap("bitmap_initial.png");
-			this->frame_4 = al_load_bitmap("bitmap_initial.png");
-			this->frame_5 = al_load_bitmap("bitmap_initial.png");
-			this->frame_6 = al_load_bitmap("bitmap_initial.png");
-			this->frame_7 = al_load_bitmap("bitmap_initial.png");
-			this->turnos = al_load_bitmap("passaturno.png");
+			this->frame_q = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_w = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_e = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_r = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_t = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_y = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_u = al_load_bitmap("../assets/img/frame_cartas.png");
+			this->frame_i = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_o = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_p = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_1 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_2 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_3 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_4 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_5 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_6 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_7 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->turnos = al_load_bitmap("../assets/img/passaturno.png");
 
 			player_sel = false;
 			card_sel = true;
@@ -480,24 +480,24 @@ void Dealer::start_menu() {
 		//CARTA 8
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_I)
 		{
-			this->frame_q = al_load_bitmap("bitmap_initial.png");
-			this->frame_w = al_load_bitmap("bitmap_initial.png");
-			this->frame_e = al_load_bitmap("bitmap_initial.png");
-			this->frame_r = al_load_bitmap("bitmap_initial.png");
-			this->frame_t = al_load_bitmap("bitmap_initial.png");
-			this->frame_y = al_load_bitmap("bitmap_initial.png");
-			this->frame_u = al_load_bitmap("bitmap_initial.png");
-			this->frame_i = al_load_bitmap("frame_cartas.png");
-			this->frame_o = al_load_bitmap("bitmap_initial.png");
-			this->frame_p = al_load_bitmap("bitmap_initial.png");
-			this->frame_1 = al_load_bitmap("bitmap_initial.png");
-			this->frame_2 = al_load_bitmap("bitmap_initial.png");
-			this->frame_3 = al_load_bitmap("bitmap_initial.png");
-			this->frame_4 = al_load_bitmap("bitmap_initial.png");
-			this->frame_5 = al_load_bitmap("bitmap_initial.png");
-			this->frame_6 = al_load_bitmap("bitmap_initial.png");
-			this->frame_7 = al_load_bitmap("bitmap_initial.png");
-			this->turnos = al_load_bitmap("passaturno.png");
+			this->frame_q = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_w = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_e = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_r = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_t = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_y = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_u = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_i = al_load_bitmap("../assets/img/frame_cartas.png");
+			this->frame_o = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_p = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_1 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_2 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_3 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_4 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_5 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_6 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_7 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->turnos = al_load_bitmap("../assets/img/passaturno.png");
 
 			player_sel = false;
 			card_sel = true;
@@ -509,24 +509,24 @@ void Dealer::start_menu() {
 		//CARTA 9
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_O)
 		{
-			this->frame_q = al_load_bitmap("bitmap_initial.png");
-			this->frame_w = al_load_bitmap("bitmap_initial.png");
-			this->frame_e = al_load_bitmap("bitmap_initial.png");
-			this->frame_r = al_load_bitmap("bitmap_initial.png");
-			this->frame_t = al_load_bitmap("bitmap_initial.png");
-			this->frame_y = al_load_bitmap("bitmap_initial.png");
-			this->frame_u = al_load_bitmap("bitmap_initial.png");
-			this->frame_i = al_load_bitmap("bitmap_initial.png");
-			this->frame_o = al_load_bitmap("frame_cartas.png");
-			this->frame_p = al_load_bitmap("bitmap_initial.png");
-			this->frame_1 = al_load_bitmap("bitmap_initial.png");
-			this->frame_2 = al_load_bitmap("bitmap_initial.png");
-			this->frame_3 = al_load_bitmap("bitmap_initial.png");
-			this->frame_4 = al_load_bitmap("bitmap_initial.png");
-			this->frame_5 = al_load_bitmap("bitmap_initial.png");
-			this->frame_6 = al_load_bitmap("bitmap_initial.png");
-			this->frame_7 = al_load_bitmap("bitmap_initial.png");
-			this->turnos = al_load_bitmap("passaturno.png");
+			this->frame_q = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_w = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_e = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_r = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_t = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_y = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_u = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_i = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_o = al_load_bitmap("../assets/img/frame_cartas.png");
+			this->frame_p = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_1 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_2 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_3 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_4 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_5 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_6 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_7 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->turnos = al_load_bitmap("../assets/img/passaturno.png");
 
 			player_sel = false;
 			card_sel = true;
@@ -538,24 +538,24 @@ void Dealer::start_menu() {
 		//CARTA 10
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_P)
 		{
-			this->frame_q = al_load_bitmap("bitmap_initial.png");
-			this->frame_w = al_load_bitmap("bitmap_initial.png");
-			this->frame_e = al_load_bitmap("bitmap_initial.png");
-			this->frame_r = al_load_bitmap("bitmap_initial.png");
-			this->frame_t = al_load_bitmap("bitmap_initial.png");
-			this->frame_y = al_load_bitmap("bitmap_initial.png");
-			this->frame_u = al_load_bitmap("bitmap_initial.png");
-			this->frame_i = al_load_bitmap("bitmap_initial.png");
-			this->frame_o = al_load_bitmap("bitmap_initial.png");
-			this->frame_p = al_load_bitmap("frame_cartas.png");
-			this->frame_1 = al_load_bitmap("bitmap_initial.png");
-			this->frame_2 = al_load_bitmap("bitmap_initial.png");
-			this->frame_3 = al_load_bitmap("bitmap_initial.png");
-			this->frame_4 = al_load_bitmap("bitmap_initial.png");
-			this->frame_5 = al_load_bitmap("bitmap_initial.png");
-			this->frame_6 = al_load_bitmap("bitmap_initial.png");
-			this->frame_7 = al_load_bitmap("bitmap_initial.png");
-			this->turnos = al_load_bitmap("passaturno.png");
+			this->frame_q = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_w = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_e = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_r = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_t = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_y = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_u = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_i = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_o = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_p = al_load_bitmap("../assets/img/frame_cartas.png");
+			this->frame_1 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_2 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_3 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_4 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_5 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_6 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_7 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->turnos = al_load_bitmap("../assets/img/passaturno.png");
 
 			player_sel = false;
 			card_sel = true;
@@ -567,24 +567,24 @@ void Dealer::start_menu() {
 		//PLAYER 1
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_1)
 		{
-			this->frame_q = al_load_bitmap("bitmap_initial.png");
-			this->frame_w = al_load_bitmap("bitmap_initial.png");
-			this->frame_e = al_load_bitmap("bitmap_initial.png");
-			this->frame_r = al_load_bitmap("bitmap_initial.png");
-			this->frame_t = al_load_bitmap("bitmap_initial.png");
-			this->frame_y = al_load_bitmap("bitmap_initial.png");
-			this->frame_u = al_load_bitmap("bitmap_initial.png");
-			this->frame_i = al_load_bitmap("bitmap_initial.png");
-			this->frame_o = al_load_bitmap("bitmap_initial.png");
-			this->frame_p = al_load_bitmap("bitmap_initial.png");
-			this->frame_1 = al_load_bitmap("frame_player.png");
-			this->frame_2 = al_load_bitmap("bitmap_initial.png");
-			this->frame_3 = al_load_bitmap("bitmap_initial.png");
-			this->frame_4 = al_load_bitmap("bitmap_initial.png");
-			this->frame_5 = al_load_bitmap("bitmap_initial.png");
-			this->frame_6 = al_load_bitmap("bitmap_initial.png");
-			this->frame_7 = al_load_bitmap("bitmap_initial.png");
-			this->turnos = al_load_bitmap("passaturno.png");
+			this->frame_q = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_w = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_e = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_r = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_t = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_y = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_u = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_i = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_o = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_p = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_1 = al_load_bitmap("../assets/img/frame_player.png");
+			this->frame_2 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_3 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_4 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_5 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_6 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_7 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->turnos = al_load_bitmap("../assets/img/passaturno.png");
 
 			player_sel = true;
 			card_sel = false;
@@ -596,24 +596,24 @@ void Dealer::start_menu() {
 		//PLAYER 2
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_2)
 		{
-			this->frame_q = al_load_bitmap("bitmap_initial.png");
-			this->frame_w = al_load_bitmap("bitmap_initial.png");
-			this->frame_e = al_load_bitmap("bitmap_initial.png");
-			this->frame_r = al_load_bitmap("bitmap_initial.png");
-			this->frame_t = al_load_bitmap("bitmap_initial.png");
-			this->frame_y = al_load_bitmap("bitmap_initial.png");
-			this->frame_u = al_load_bitmap("bitmap_initial.png");
-			this->frame_i = al_load_bitmap("bitmap_initial.png");
-			this->frame_o = al_load_bitmap("bitmap_initial.png");
-			this->frame_p = al_load_bitmap("bitmap_initial.png");
-			this->frame_1 = al_load_bitmap("bitmap_initial.png");
-			this->frame_2 = al_load_bitmap("frame_player.png");
-			this->frame_3 = al_load_bitmap("bitmap_initial.png");
-			this->frame_4 = al_load_bitmap("bitmap_initial.png");
-			this->frame_5 = al_load_bitmap("bitmap_initial.png");
-			this->frame_6 = al_load_bitmap("bitmap_initial.png");
-			this->frame_7 = al_load_bitmap("bitmap_initial.png");
-			this->turnos = al_load_bitmap("passaturno.png");
+			this->frame_q = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_w = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_e = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_r = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_t = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_y = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_u = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_i = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_o = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_p = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_1 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_2 = al_load_bitmap("../assets/img/frame_player.png");
+			this->frame_3 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_4 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_5 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_6 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_7 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->turnos = al_load_bitmap("../assets/img/passaturno.png");
 
 			player_sel = true;
 			card_sel = false;
@@ -625,24 +625,24 @@ void Dealer::start_menu() {
 		//PLAYER 3
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_3)
 		{
-			this->frame_q = al_load_bitmap("bitmap_initial.png");
-			this->frame_w = al_load_bitmap("bitmap_initial.png");
-			this->frame_e = al_load_bitmap("bitmap_initial.png");
-			this->frame_r = al_load_bitmap("bitmap_initial.png");
-			this->frame_t = al_load_bitmap("bitmap_initial.png");
-			this->frame_y = al_load_bitmap("bitmap_initial.png");
-			this->frame_u = al_load_bitmap("bitmap_initial.png");
-			this->frame_i = al_load_bitmap("bitmap_initial.png");
-			this->frame_o = al_load_bitmap("bitmap_initial.png");
-			this->frame_p = al_load_bitmap("bitmap_initial.png");
-			this->frame_1 = al_load_bitmap("bitmap_initial.png");
-			this->frame_2 = al_load_bitmap("bitmap_initial.png");
-			this->frame_3 = al_load_bitmap("frame_player.png");
-			this->frame_4 = al_load_bitmap("bitmap_initial.png");
-			this->frame_5 = al_load_bitmap("bitmap_initial.png");
-			this->frame_6 = al_load_bitmap("bitmap_initial.png");
-			this->frame_7 = al_load_bitmap("bitmap_initial.png");
-			this->turnos = al_load_bitmap("passaturno.png");
+			this->frame_q = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_w = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_e = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_r = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_t = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_y = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_u = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_i = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_o = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_p = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_1 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_2 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_3 = al_load_bitmap("../assets/img/frame_player.png");
+			this->frame_4 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_5 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_6 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_7 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->turnos = al_load_bitmap("../assets/img/passaturno.png");
 
 			player_sel = true;
 			card_sel = false;
@@ -654,24 +654,24 @@ void Dealer::start_menu() {
 		//PLAYER 4
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_4)
 		{
-			this->frame_q = al_load_bitmap("bitmap_initial.png");
-			this->frame_w = al_load_bitmap("bitmap_initial.png");
-			this->frame_e = al_load_bitmap("bitmap_initial.png");
-			this->frame_r = al_load_bitmap("bitmap_initial.png");
-			this->frame_t = al_load_bitmap("bitmap_initial.png");
-			this->frame_y = al_load_bitmap("bitmap_initial.png");
-			this->frame_u = al_load_bitmap("bitmap_initial.png");
-			this->frame_i = al_load_bitmap("bitmap_initial.png");
-			this->frame_o = al_load_bitmap("bitmap_initial.png");
-			this->frame_p = al_load_bitmap("bitmap_initial.png");
-			this->frame_1 = al_load_bitmap("bitmap_initial.png");
-			this->frame_2 = al_load_bitmap("bitmap_initial.png");
-			this->frame_3 = al_load_bitmap("bitmap_initial.png");
-			this->frame_4 = al_load_bitmap("frame_player.png");
-			this->frame_5 = al_load_bitmap("bitmap_initial.png");
-			this->frame_6 = al_load_bitmap("bitmap_initial.png");
-			this->frame_7 = al_load_bitmap("bitmap_initial.png");
-			this->turnos = al_load_bitmap("passaturno.png");
+			this->frame_q = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_w = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_e = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_r = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_t = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_y = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_u = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_i = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_o = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_p = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_1 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_2 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_3 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_4 = al_load_bitmap("../assets/img/frame_player.png");
+			this->frame_5 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_6 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_7 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->turnos = al_load_bitmap("../assets/img/passaturno.png");
 
 			player_sel = true;
 			card_sel = false;
@@ -683,24 +683,24 @@ void Dealer::start_menu() {
 		//PLAYER 5
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_5 && players > 4)
 		{
-			this->frame_q = al_load_bitmap("bitmap_initial.png");
-			this->frame_w = al_load_bitmap("bitmap_initial.png");
-			this->frame_e = al_load_bitmap("bitmap_initial.png");
-			this->frame_r = al_load_bitmap("bitmap_initial.png");
-			this->frame_t = al_load_bitmap("bitmap_initial.png");
-			this->frame_y = al_load_bitmap("bitmap_initial.png");
-			this->frame_u = al_load_bitmap("bitmap_initial.png");
-			this->frame_i = al_load_bitmap("bitmap_initial.png");
-			this->frame_o = al_load_bitmap("bitmap_initial.png");
-			this->frame_p = al_load_bitmap("bitmap_initial.png");
-			this->frame_1 = al_load_bitmap("bitmap_initial.png");
-			this->frame_2 = al_load_bitmap("bitmap_initial.png");
-			this->frame_3 = al_load_bitmap("bitmap_initial.png");
-			this->frame_4 = al_load_bitmap("bitmap_initial.png");
-			this->frame_5 = al_load_bitmap("frame_player.png");
-			this->frame_6 = al_load_bitmap("bitmap_initial.png");
-			this->frame_7 = al_load_bitmap("bitmap_initial.png");
-			this->turnos = al_load_bitmap("passaturno.png");
+			this->frame_q = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_w = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_e = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_r = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_t = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_y = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_u = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_i = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_o = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_p = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_1 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_2 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_3 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_4 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_5 = al_load_bitmap("../assets/img/frame_player.png");
+			this->frame_6 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_7 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->turnos = al_load_bitmap("../assets/img/passaturno.png");
 
 			player_sel = true;
 			card_sel = false;
@@ -712,24 +712,24 @@ void Dealer::start_menu() {
 		//PLAYER 6
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_6 && players > 5)
 		{
-			this->frame_q = al_load_bitmap("bitmap_initial.png");
-			this->frame_w = al_load_bitmap("bitmap_initial.png");
-			this->frame_e = al_load_bitmap("bitmap_initial.png");
-			this->frame_r = al_load_bitmap("bitmap_initial.png");
-			this->frame_t = al_load_bitmap("bitmap_initial.png");
-			this->frame_y = al_load_bitmap("bitmap_initial.png");
-			this->frame_u = al_load_bitmap("bitmap_initial.png");
-			this->frame_i = al_load_bitmap("bitmap_initial.png");
-			this->frame_o = al_load_bitmap("bitmap_initial.png");
-			this->frame_p = al_load_bitmap("bitmap_initial.png");
-			this->frame_1 = al_load_bitmap("bitmap_initial.png");
-			this->frame_2 = al_load_bitmap("bitmap_initial.png");
-			this->frame_3 = al_load_bitmap("bitmap_initial.png");
-			this->frame_4 = al_load_bitmap("bitmap_initial.png");
-			this->frame_5 = al_load_bitmap("bitmap_initial.png");
-			this->frame_6 = al_load_bitmap("frame_player.png");
-			this->frame_7 = al_load_bitmap("bitmap_initial.png");
-			this->turnos = al_load_bitmap("passaturno.png");
+			this->frame_q = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_w = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_e = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_r = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_t = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_y = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_u = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_i = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_o = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_p = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_1 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_2 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_3 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_4 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_5 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_6 = al_load_bitmap("../assets/img/frame_player.png");
+			this->frame_7 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->turnos = al_load_bitmap("../assets/img/passaturno.png");
 
 			player_sel = true;
 			card_sel = false;
@@ -741,24 +741,24 @@ void Dealer::start_menu() {
 		//PLAYER 7
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_7 && players > 6)
 		{
-			this->frame_q = al_load_bitmap("bitmap_initial.png");
-			this->frame_w = al_load_bitmap("bitmap_initial.png");
-			this->frame_e = al_load_bitmap("bitmap_initial.png");
-			this->frame_r = al_load_bitmap("bitmap_initial.png");
-			this->frame_t = al_load_bitmap("bitmap_initial.png");
-			this->frame_y = al_load_bitmap("bitmap_initial.png");
-			this->frame_u = al_load_bitmap("bitmap_initial.png");
-			this->frame_i = al_load_bitmap("bitmap_initial.png");
-			this->frame_o = al_load_bitmap("bitmap_initial.png");
-			this->frame_p = al_load_bitmap("bitmap_initial.png");
-			this->frame_1 = al_load_bitmap("bitmap_initial.png");
-			this->frame_2 = al_load_bitmap("bitmap_initial.png");
-			this->frame_3 = al_load_bitmap("bitmap_initial.png");
-			this->frame_4 = al_load_bitmap("bitmap_initial.png");
-			this->frame_5 = al_load_bitmap("bitmap_initial.png");
-			this->frame_6 = al_load_bitmap("bitmap_initial.png");
-			this->frame_7 = al_load_bitmap("frame_player.png");
-			this->turnos = al_load_bitmap("passaturno.png");
+			this->frame_q = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_w = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_e = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_r = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_t = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_y = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_u = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_i = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_o = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_p = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_1 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_2 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_3 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_4 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_5 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_6 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_7 = al_load_bitmap("../assets/img/frame_player.png");
+			this->turnos = al_load_bitmap("../assets/img/passaturno.png");
 
 			player_sel = true;
 			card_sel = false;
@@ -770,24 +770,24 @@ void Dealer::start_menu() {
 		//BOTAO TURNOS
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_SPACE)
 		{
-			this->frame_q = al_load_bitmap("bitmap_initial.png");
-			this->frame_w = al_load_bitmap("bitmap_initial.png");
-			this->frame_e = al_load_bitmap("bitmap_initial.png");
-			this->frame_r = al_load_bitmap("bitmap_initial.png");
-			this->frame_t = al_load_bitmap("bitmap_initial.png");
-			this->frame_y = al_load_bitmap("bitmap_initial.png");
-			this->frame_u = al_load_bitmap("bitmap_initial.png");
-			this->frame_i = al_load_bitmap("bitmap_initial.png");
-			this->frame_o = al_load_bitmap("bitmap_initial.png");
-			this->frame_p = al_load_bitmap("bitmap_initial.png");
-			this->frame_1 = al_load_bitmap("bitmap_initial.png");
-			this->frame_2 = al_load_bitmap("bitmap_initial.png");
-			this->frame_3 = al_load_bitmap("bitmap_initial.png");
-			this->frame_4 = al_load_bitmap("bitmap_initial.png");
-			this->frame_5 = al_load_bitmap("bitmap_initial.png");
-			this->frame_6 = al_load_bitmap("bitmap_initial.png");
-			this->frame_7 = al_load_bitmap("bitmap_initial.png");
-			this->turnos = al_load_bitmap("passaturno1.png");
+			this->frame_q = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_w = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_e = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_r = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_t = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_y = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_u = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_i = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_o = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_p = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_1 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_2 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_3 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_4 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_5 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_6 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->frame_7 = al_load_bitmap("../assets/img/bitmap_initial.png");
+			this->turnos = al_load_bitmap("../assets/img/passaturno1.png");
 
 			player_sel = false;
 			card_sel = false;
@@ -796,7 +796,7 @@ void Dealer::start_menu() {
 			card_num = 0;
 			player_num = 0;
 		}
-		
+
 	}
 
 	if (event.type == ALLEGRO_EVENT_TIMER) {
@@ -860,7 +860,7 @@ void Dealer::start_menu() {
 		al_draw_bitmap(this->frame_4, 588, 64, 0);
 		al_draw_bitmap(this->frame_5, 723, 64, 0);
 		al_draw_bitmap(this->frame_6, 857, 64, 0);
-		al_draw_bitmap(this->frame_7, 992, 64, 0);		
+		al_draw_bitmap(this->frame_7, 992, 64, 0);
 		//pause//
 		al_draw_bitmap(this->pause, 450, 0, 0);
 
@@ -870,7 +870,7 @@ void Dealer::start_menu() {
 	//pause commands//
 	if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_ESCAPE)
 	{
-		this->pause = al_load_bitmap("pause0.png");
+		this->pause = al_load_bitmap("../assets/img/pause0.png");
 		pause_bool = true;
 		game = false;
 	}
@@ -878,18 +878,18 @@ void Dealer::start_menu() {
 	{
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_ENTER && pause_aux == 0)
 		{
-			this->pause = al_load_bitmap("bitmap_initial.png");
+			this->pause = al_load_bitmap("../assets/img/bitmap_initial.png");
 			game = true;
 			pause_bool = false;
 		}
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_RIGHT && pause_aux == 0)
 		{
-			this->pause = al_load_bitmap("pause1.png");
+			this->pause = al_load_bitmap("../assets/img/pause1.png");
 			pause_aux = 1;
 		}
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_LEFT && pause_aux == 1)
 		{
-			this->pause = al_load_bitmap("pause0.png");
+			this->pause = al_load_bitmap("../assets/img/pause0.png");
 			pause_aux = 0;
 		}
 		if (event.type == ALLEGRO_EVENT_KEY_UP && event.keyboard.keycode == ALLEGRO_KEY_ENTER && pause_aux == 1)
